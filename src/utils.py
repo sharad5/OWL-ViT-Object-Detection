@@ -56,7 +56,77 @@ class BoxUtil:
         out_format: str,  # [‘xyxy’, ‘xywh’, ‘cxcywh’]
     ):
         return _box_convert(boxes_batch, in_format, out_format)
+    
+    @classmethod
+    def box_iou(boxes1, boxes2, eps = 1e-6):
+        """Computes IoU between two sets of boxes (Works on batched inputs).
+            Adopted from: https://github.com/google-research/scenic/blob/main/scenic/model_lib/base_models/box_utils.py
 
+        Boxes are in [x, y, x', y'] format [x, y] is top-left, [x', y'] is bottom right.
+
+        Args:
+            boxes1: Predicted bounding-boxes in shape [bs, n, 4].
+            boxes2: Target bounding-boxes in shape [bs, m, 4].
+            eps: Epsilon for numerical stability.
+
+        Returns:
+            Pairwise IoU cost matrix of shape [bs, n, m].
+        """
+        # First, compute box areas. These will be used later for computing the union.
+        wh1 = boxes1[..., 2:] - boxes1[..., :2] # W & H of box1
+        area1 = wh1[..., 0] * wh1[..., 1]  # [bs, n]
+
+        wh2 = boxes2[..., 2:] - boxes2[..., :2]
+        area2 = wh2[..., 0] * wh2[..., 1]  # [bs, m]
+
+        # Compute pairwise top-left and bottom-right corners of the intersection of the boxes.
+        lt = torch.maximum(boxes1[..., :, None, :2], boxes2[..., None, :, :2])  # [bs, n, m, 2].
+        rb = torch.minimum(boxes1[..., :, None, 2:], boxes2[..., None, :, 2:])  # [bs, n, m, 2].
+
+        # intersection = area of the box defined by [lt, rb]
+        wh = (rb - lt).clip(0.0)  # [bs, n, m, 2]
+        intersection = wh[..., 0] * wh[..., 1]  # [bs, n, m]
+
+        # union = sum of areas - intersection
+        union = area1[..., :, None] + area2[..., None, :] - intersection
+
+        iou = intersection / (union + eps)
+        return iou, union  # pytype: disable=bad-return-type 
+    
+    @classmethod
+    def generalized_box_iou(boxes1, boxes2, eps = 1e-6):
+        """Generalized IoU from https://giou.stanford.edu/.
+
+        The boxes should be in [x, y, x', y'] format specifying top-left and bottom-right corners.
+
+        Args:
+            boxes1: Predicted bounding-boxes in shape [..., N, 4].
+            boxes2: Target bounding-boxes in shape [..., M, 4].
+            eps: Epsilon for numerical stability.
+
+        Returns:
+            A [bs, n, m] pairwise matrix, of generalized ious.
+        """
+        # Degenerate boxes gives inf / nan results, so do an early check.
+        assert (boxes1[:, :, 2:] >= boxes1[:, :, :2]).all()
+        assert (boxes2[:, :, 2:] >= boxes2[:, :, :2]).all()
+
+        iou, union = box_iou(boxes1, boxes2, eps=eps)
+
+        # Generalized IoU has an extra term which takes into account the area of
+        # the box containing both of these boxes. The following code is very similar
+        # to that for computing intersection but the min and max are flipped.
+        lt = torch.minimum(boxes1[..., :, None, :2], boxes2[..., None, :, :2])  # [bs, n, m, 2]
+        rb = torch.maximum(boxes1[..., :, None, 2:], boxes2[..., None, :, 2:])  # [bs, n, m, 2]
+
+        # Now, compute the covering box's area.
+        wh = (rb - lt).clip(0.0)  # Either [bs, n, 2] or [bs, n, m, 2].
+        area = wh[..., 0] * wh[..., 1]  # Either [bs, n] or [bs, n, m].
+
+        # Finally, compute generalized IoU from IoU, union, and area.
+        # Somehow the PyTorch implementation does not use eps to avoid 1/0 cases.
+        return iou - (area - union) / (area + eps)
+    
 
 def paco_to_owl_box(boxes, metadata, owl_image_dim=(768, 768)):
     """
