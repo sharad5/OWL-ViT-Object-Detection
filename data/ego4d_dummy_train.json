@@ -1,0 +1,3188 @@
+{
+    "annotations": [
+        {
+            "image_file_name": "00c450a5-49d0-4647-a45c-bf214cea169d_015987.jpeg",
+            "bbox": [
+                839.45,
+                528.09,
+                323.87,
+                420.37
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A dark_yellow trash_can",
+                "A dark_yellow trash_can"
+            ]
+        },
+        {
+            "image_file_name": "01811fc3-9862-4b9a-ae33-1e5f86b28c15_033060.jpeg",
+            "bbox": [
+                995.24,
+                397.18,
+                555.1,
+                701.77
+            ],
+            "pos_queries": [
+                "A blue towel"
+            ],
+            "neg_queries": [
+                "A white broom",
+                "A white broom"
+            ]
+        },
+        {
+            "image_file_name": "023bf95e-28de-43b4-a43f-720edba667a5_024997.jpeg",
+            "bbox": [
+                387.4,
+                846.64,
+                690.43,
+                232.96
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A other(color) earphone",
+                "A other(color) earphone"
+            ]
+        },
+        {
+            "image_file_name": "055f3cf1-1133-4260-b5a0-31e7ca1726a1_003682.jpeg",
+            "bbox": [
+                1367.72,
+                719.29,
+                552.64,
+                693.96
+            ],
+            "pos_queries": [
+                "A dark_blue towel"
+            ],
+            "neg_queries": [
+                "A dark_yellow carton",
+                "A dark_yellow carton"
+            ]
+        },
+        {
+            "image_file_name": "055f3cf1-1133-4260-b5a0-31e7ca1726a1_003682.jpeg",
+            "bbox": [
+                946.84,
+                61.74,
+                152.95,
+                62.31
+            ],
+            "pos_queries": [
+                "A black knife"
+            ],
+            "neg_queries": [
+                "A green tissue_paper",
+                "A green tissue_paper"
+            ]
+        },
+        {
+            "image_file_name": "09a92796-1c64-41b6-8ada-a8088ff1f658_009140.jpeg",
+            "bbox": [
+                503.01,
+                337.81,
+                813.7,
+                564.66
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A dark_yellow hat",
+                "A dark_yellow hat"
+            ]
+        },
+        {
+            "image_file_name": "09b08eda-a8b6-4c9c-adb0-3432114555b3_011244.jpeg",
+            "bbox": [
+                0.34,
+                -0.21,
+                1852.35,
+                1218.11
+            ],
+            "pos_queries": [
+                "A white table"
+            ],
+            "neg_queries": [
+                "A red wallet",
+                "A red wallet"
+            ]
+        },
+        {
+            "image_file_name": "09b08eda-a8b6-4c9c-adb0-3432114555b3_011244.jpeg",
+            "bbox": [
+                796.71,
+                333.34,
+                788.73,
+                956.77
+            ],
+            "pos_queries": [
+                "A brown book"
+            ],
+            "neg_queries": [
+                "A grey tray",
+                "A grey tray"
+            ]
+        },
+        {
+            "image_file_name": "09b08eda-a8b6-4c9c-adb0-3432114555b3_011244.jpeg",
+            "bbox": [
+                -0.17,
+                311.62,
+                310.22,
+                687.33
+            ],
+            "pos_queries": [
+                "A black book"
+            ],
+            "neg_queries": [
+                "A light_blue handbag",
+                "A light_blue handbag"
+            ]
+        },
+        {
+            "image_file_name": "0a0395c9-caae-47ca-b78f-2a473f99df67_028370.jpeg",
+            "bbox": [
+                425.09,
+                393.48,
+                1494.91,
+                684.25
+            ],
+            "pos_queries": [
+                "A brown table"
+            ],
+            "neg_queries": [
+                "A dark_yellow sponge",
+                "A dark_yellow sponge"
+            ]
+        },
+        {
+            "image_file_name": "0a0395c9-caae-47ca-b78f-2a473f99df67_028370.jpeg",
+            "bbox": [
+                717.43,
+                668.44,
+                191.21,
+                167.51
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A brown broom",
+                "A brown broom"
+            ]
+        },
+        {
+            "image_file_name": "0a0395c9-caae-47ca-b78f-2a473f99df67_028370.jpeg",
+            "bbox": [
+                631.98,
+                824.14,
+                64.39,
+                70.89
+            ],
+            "pos_queries": [
+                "A white telephone"
+            ],
+            "neg_queries": [
+                "A light_brown drum_(musical_instrument)",
+                "A light_brown drum_(musical_instrument)"
+            ]
+        },
+        {
+            "image_file_name": "0a0395c9-caae-47ca-b78f-2a473f99df67_028433.jpeg",
+            "bbox": [
+                428.78,
+                414.95,
+                1491.24,
+                664.97
+            ],
+            "pos_queries": [
+                "A brown table"
+            ],
+            "neg_queries": [
+                "A grey jar",
+                "A grey jar"
+            ]
+        },
+        {
+            "image_file_name": "0a0395c9-caae-47ca-b78f-2a473f99df67_028433.jpeg",
+            "bbox": [
+                809.66,
+                290.2,
+                253.36,
+                372.13
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A purple earphone",
+                "A purple earphone"
+            ]
+        },
+        {
+            "image_file_name": "0a0395c9-caae-47ca-b78f-2a473f99df67_028433.jpeg",
+            "bbox": [
+                1230.65,
+                478.66,
+                80.75,
+                78.9
+            ],
+            "pos_queries": [
+                "A black telephone"
+            ],
+            "neg_queries": [
+                "A dark_orange wrench",
+                "A dark_orange wrench"
+            ]
+        },
+        {
+            "image_file_name": "0b70ed1e-c914-4de0-b748-5c808b254152_008857.jpeg",
+            "bbox": [
+                398.99,
+                476.51,
+                741.88,
+                603.26
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A light_orange bottle",
+                "A light_orange bottle"
+            ]
+        },
+        {
+            "image_file_name": "0db415df-aa32-48e9-b63a-fd2dec01e378_023260.jpeg",
+            "bbox": [
+                1.6,
+                2.76,
+                2559.65,
+                1496.64
+            ],
+            "pos_queries": [
+                "A brown table"
+            ],
+            "neg_queries": [
+                "A light_purple blender",
+                "A light_purple blender"
+            ]
+        },
+        {
+            "image_file_name": "105d3303-8e2d-4c20-96ff-e9a8ff325109_052060.jpeg",
+            "bbox": [
+                1096.2,
+                85.55,
+                196.21,
+                266.67
+            ],
+            "pos_queries": [
+                "A pink towel"
+            ],
+            "neg_queries": [
+                "A dark_blue sponge",
+                "A dark_blue sponge"
+            ]
+        },
+        {
+            "image_file_name": "106e9447-8a09-4e89-964e-61c927827a56_013953.jpeg",
+            "bbox": [
+                733.88,
+                1012.22,
+                421.82,
+                345.97
+            ],
+            "pos_queries": [
+                "A brown towel"
+            ],
+            "neg_queries": [
+                "A orange knife",
+                "A orange knife"
+            ]
+        },
+        {
+            "image_file_name": "14e9c56e-b418-4bbf-bfe0-63810ef744d4_015728.jpeg",
+            "bbox": [
+                399.13,
+                75.96,
+                1038.57,
+                856.27
+            ],
+            "pos_queries": [
+                "A grey table"
+            ],
+            "neg_queries": [
+                "A purple remote_control",
+                "A purple remote_control"
+            ]
+        },
+        {
+            "image_file_name": "14e9c56e-b418-4bbf-bfe0-63810ef744d4_015728.jpeg",
+            "bbox": [
+                676.73,
+                672.58,
+                157.44,
+                140.87
+            ],
+            "pos_queries": [
+                "A red towel"
+            ],
+            "neg_queries": [
+                "A dark_blue pliers",
+                "A dark_blue pliers"
+            ]
+        },
+        {
+            "image_file_name": "1591bc4a-48df-4d5f-a021-240b850e7178_006306.jpeg",
+            "bbox": [
+                637.71,
+                -0.09,
+                1013.95,
+                698.5
+            ],
+            "pos_queries": [
+                "A black table"
+            ],
+            "neg_queries": [
+                "A grey bowl",
+                "A grey bowl"
+            ]
+        },
+        {
+            "image_file_name": "1b9c07d3-0656-48ad-bae4-cca25f6664c9_026361.jpeg",
+            "bbox": [
+                403.2,
+                424.32,
+                157.44,
+                165.12
+            ],
+            "pos_queries": [
+                "A brown towel"
+            ],
+            "neg_queries": [
+                "A light_brown wallet",
+                "A light_brown wallet"
+            ]
+        },
+        {
+            "image_file_name": "1b9c07d3-0656-48ad-bae4-cca25f6664c9_026361.jpeg",
+            "bbox": [
+                800.64,
+                608.64,
+                334.08,
+                360.96
+            ],
+            "pos_queries": [
+                "A light_blue towel"
+            ],
+            "neg_queries": [
+                "A dark_blue handbag",
+                "A dark_blue handbag"
+            ]
+        },
+        {
+            "image_file_name": "1b9c07d3-0656-48ad-bae4-cca25f6664c9_026361.jpeg",
+            "bbox": [
+                716.16,
+                1069.44,
+                264.96,
+                316.8
+            ],
+            "pos_queries": [
+                "A brown towel"
+            ],
+            "neg_queries": [
+                "A dark_pink hammer",
+                "A dark_pink hammer"
+            ]
+        },
+        {
+            "image_file_name": "21247536-db56-454f-8781-133fbfabe60b_001314.jpeg",
+            "bbox": [
+                1041.8,
+                506.33,
+                208.4,
+                170.58
+            ],
+            "pos_queries": [
+                "A green towel"
+            ],
+            "neg_queries": [
+                "A dark_red telephone",
+                "A dark_red telephone"
+            ]
+        },
+        {
+            "image_file_name": "2638b358-6b13-434c-bf03-a48bca96f287_024356.jpeg",
+            "bbox": [
+                724.28,
+                432.12,
+                261.27,
+                250.93
+            ],
+            "pos_queries": [
+                "A pink towel"
+            ],
+            "neg_queries": [
+                "A light_pink scissors",
+                "A light_pink scissors"
+            ]
+        },
+        {
+            "image_file_name": "26b65c61-36e2-445b-a97b-ea8552cb71a2_006533.jpeg",
+            "bbox": [
+                1452.57,
+                1.25,
+                466.41,
+                693.8
+            ],
+            "pos_queries": [
+                "A dark_grey towel"
+            ],
+            "neg_queries": [
+                "A dark_pink car_(automobile)",
+                "A dark_pink car_(automobile)"
+            ]
+        },
+        {
+            "image_file_name": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_019099.jpeg",
+            "bbox": [
+                181.4,
+                0.01,
+                1313.81,
+                1079.29
+            ],
+            "pos_queries": [
+                "A grey towel"
+            ],
+            "neg_queries": [
+                "A light_red mug",
+                "A light_red mug"
+            ]
+        },
+        {
+            "image_file_name": "2ebcbb25-b099-44fa-8e8d-94d574413db9_014132.jpeg",
+            "bbox": [
+                327.85,
+                685.58,
+                975.82,
+                394.19
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A dark_grey knife",
+                "A dark_grey knife"
+            ]
+        },
+        {
+            "image_file_name": "30bfaf00-5376-48bc-aee2-ce5c14bde32a_029378.jpeg",
+            "bbox": [
+                200.61,
+                651.6,
+                359.58,
+                421.64
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A white jar",
+                "A white jar"
+            ]
+        },
+        {
+            "image_file_name": "30bfaf00-5376-48bc-aee2-ce5c14bde32a_029378.jpeg",
+            "bbox": [
+                253.78,
+                0.34,
+                2287.98,
+                1192.41
+            ],
+            "pos_queries": [
+                "A light_brown table"
+            ],
+            "neg_queries": [
+                "A white pencil",
+                "A white pencil"
+            ]
+        },
+        {
+            "image_file_name": "30bfaf00-5376-48bc-aee2-ce5c14bde32a_029378.jpeg",
+            "bbox": [
+                488.48,
+                74.27,
+                287.81,
+                279.38
+            ],
+            "pos_queries": [
+                "A white bowl"
+            ],
+            "neg_queries": [
+                "A other(color) book",
+                "A other(color) book"
+            ]
+        },
+        {
+            "image_file_name": "30bfaf00-5376-48bc-aee2-ce5c14bde32a_029378.jpeg",
+            "bbox": [
+                581.17,
+                343.41,
+                261.44,
+                272.51
+            ],
+            "pos_queries": [
+                "A green bowl"
+            ],
+            "neg_queries": [
+                "A red jar",
+                "A red jar"
+            ]
+        },
+        {
+            "image_file_name": "30bfaf00-5376-48bc-aee2-ce5c14bde32a_029378.jpeg",
+            "bbox": [
+                985.96,
+                243.57,
+                229.59,
+                218.06
+            ],
+            "pos_queries": [
+                "A blue bowl"
+            ],
+            "neg_queries": [
+                "A blue drill",
+                "A blue drill"
+            ]
+        },
+        {
+            "image_file_name": "30bfaf00-5376-48bc-aee2-ce5c14bde32a_029378.jpeg",
+            "bbox": [
+                388.05,
+                401.7,
+                291.88,
+                445.42
+            ],
+            "pos_queries": [
+                "A light_grey towel"
+            ],
+            "neg_queries": [
+                "A red book",
+                "A red book"
+            ]
+        },
+        {
+            "image_file_name": "30bfaf00-5376-48bc-aee2-ce5c14bde32a_029378.jpeg",
+            "bbox": [
+                588.85,
+                281.64,
+                232.72,
+                313.04
+            ],
+            "pos_queries": [
+                "A light_blue towel"
+            ],
+            "neg_queries": [
+                "A light_yellow pencil",
+                "A light_yellow pencil"
+            ]
+        },
+        {
+            "image_file_name": "320e73ce-08e0-40bf-945c-f4515d03621f_006624.jpeg",
+            "bbox": [
+                1214.37,
+                624.35,
+                275.81,
+                181.02
+            ],
+            "pos_queries": [
+                "A blue towel"
+            ],
+            "neg_queries": [
+                "A dark_grey screwdriver",
+                "A dark_grey screwdriver"
+            ]
+        },
+        {
+            "image_file_name": "32eb7ed6-bea2-4b2f-a201-22e8f1f70caa_002583.jpeg",
+            "bbox": [
+                997.58,
+                1022.82,
+                294.34,
+                417.13
+            ],
+            "pos_queries": [
+                "A light_grey towel"
+            ],
+            "neg_queries": [
+                "A dark_green wrench",
+                "A dark_green wrench"
+            ]
+        },
+        {
+            "image_file_name": "3313b878-4cf4-4e89-988f-9c815a6c4b1c_015895.jpeg",
+            "bbox": [
+                1.38,
+                229.26,
+                267.93,
+                528.95
+            ],
+            "pos_queries": [
+                "A black laptop_computer"
+            ],
+            "neg_queries": [
+                "A white plate",
+                "A white plate"
+            ]
+        },
+        {
+            "image_file_name": "3313b878-4cf4-4e89-988f-9c815a6c4b1c_015895.jpeg",
+            "bbox": [
+                265.17,
+                107.72,
+                769.26,
+                542.76
+            ],
+            "pos_queries": [
+                "A black laptop_computer"
+            ],
+            "neg_queries": [
+                "A dark_yellow soap",
+                "A dark_yellow soap"
+            ]
+        },
+        {
+            "image_file_name": "36c772e4-8503-4622-98e4-affe6097dd24_002989.jpeg",
+            "bbox": [
+                2.9,
+                734.26,
+                997.82,
+                688.84
+            ],
+            "pos_queries": [
+                "A striped towel"
+            ],
+            "neg_queries": [
+                "A light_green bucket",
+                "A light_green bucket"
+            ]
+        },
+        {
+            "image_file_name": "36c772e4-8503-4622-98e4-affe6097dd24_006742.jpeg",
+            "bbox": [
+                401.51,
+                239.44,
+                1272.48,
+                1200.84
+            ],
+            "pos_queries": [
+                "A dark_brown table"
+            ],
+            "neg_queries": [
+                "A dark_orange glass_(drink_container)",
+                "A dark_orange glass_(drink_container)"
+            ]
+        },
+        {
+            "image_file_name": "36c772e4-8503-4622-98e4-affe6097dd24_006742.jpeg",
+            "bbox": [
+                619.55,
+                522.25,
+                621.97,
+                917.06
+            ],
+            "pos_queries": [
+                "A striped towel"
+            ],
+            "neg_queries": [
+                "A light_red crate",
+                "A light_red crate"
+            ]
+        },
+        {
+            "image_file_name": "389eea41-7ac5-4bcb-86c7-5a70f064c44f_010129.jpeg",
+            "bbox": [
+                693.7,
+                964.9,
+                973.91,
+                114.54
+            ],
+            "pos_queries": [
+                "A black towel"
+            ],
+            "neg_queries": [
+                "A other(color) bucket",
+                "A other(color) bucket"
+            ]
+        },
+        {
+            "image_file_name": "3a370ae5-3f92-4fca-bcf6-9117a78673bd_001134.jpeg",
+            "bbox": [
+                372.82,
+                2.79,
+                293.64,
+                424.56
+            ],
+            "pos_queries": [
+                "A plain bottle"
+            ],
+            "neg_queries": [
+                "A orange pencil",
+                "A orange pencil"
+            ]
+        },
+        {
+            "image_file_name": "3ce27068-44ba-4593-aa26-444ce0616150_001532.jpeg",
+            "bbox": [
+                865.31,
+                791.63,
+                410.71,
+                518.04
+            ],
+            "pos_queries": [
+                "A red towel"
+            ],
+            "neg_queries": [
+                "A dark_purple plastic_bag",
+                "A dark_purple plastic_bag"
+            ]
+        },
+        {
+            "image_file_name": "3efc152d-ea0e-4372-b552-7d5e1cf07259_386360.jpeg",
+            "bbox": [
+                72.24,
+                738.49,
+                1319.79,
+                342.23
+            ],
+            "pos_queries": [
+                "A brown table"
+            ],
+            "neg_queries": [
+                "A dark_purple pen",
+                "A dark_purple pen"
+            ]
+        },
+        {
+            "image_file_name": "3efc152d-ea0e-4372-b552-7d5e1cf07259_386360.jpeg",
+            "bbox": [
+                222.07,
+                324.39,
+                198.58,
+                78.62
+            ],
+            "pos_queries": [
+                "A dark_brown table"
+            ],
+            "neg_queries": [
+                "A dark_red pen",
+                "A dark_red pen"
+            ]
+        },
+        {
+            "image_file_name": "3efc152d-ea0e-4372-b552-7d5e1cf07259_386360.jpeg",
+            "bbox": [
+                869.78,
+                563.38,
+                83.37,
+                54.42
+            ],
+            "pos_queries": [
+                "A light_brown table"
+            ],
+            "neg_queries": [
+                "A light_brown pen",
+                "A light_brown pen"
+            ]
+        },
+        {
+            "image_file_name": "3efc152d-ea0e-4372-b552-7d5e1cf07259_386360.jpeg",
+            "bbox": [
+                1153.36,
+                875.81,
+                122.74,
+                67.16
+            ],
+            "pos_queries": [
+                "A light_brown towel"
+            ],
+            "neg_queries": [
+                "A light_grey belt",
+                "A light_grey belt"
+            ]
+        },
+        {
+            "image_file_name": "3efc152d-ea0e-4372-b552-7d5e1cf07259_386360.jpeg",
+            "bbox": [
+                716.83,
+                750.2,
+                116.95,
+                76.98
+            ],
+            "pos_queries": [
+                "A light_grey towel"
+            ],
+            "neg_queries": [
+                "A light_blue belt",
+                "A light_blue belt"
+            ]
+        },
+        {
+            "image_file_name": "3f699595-db40-4dca-9908-33f2b06841fc_001869.jpeg",
+            "bbox": [
+                1029.18,
+                1121.45,
+                178.15,
+                191.85
+            ],
+            "pos_queries": [
+                "A blue towel"
+            ],
+            "neg_queries": [
+                "A brown hat",
+                "A brown hat"
+            ]
+        },
+        {
+            "image_file_name": "3fafab49-f9a6-4781-912c-c60a91dec5cf_015320.jpeg",
+            "bbox": [
+                322.28,
+                993.15,
+                208.28,
+                202.51
+            ],
+            "pos_queries": [
+                "A grey plate"
+            ],
+            "neg_queries": [
+                "A light_purple watch",
+                "A light_purple watch"
+            ]
+        },
+        {
+            "image_file_name": "3fafab49-f9a6-4781-912c-c60a91dec5cf_015320.jpeg",
+            "bbox": [
+                351.24,
+                1196.81,
+                309.51,
+                243.06
+            ],
+            "pos_queries": [
+                "A grey plate"
+            ],
+            "neg_queries": [
+                "A red bucket",
+                "A red bucket"
+            ]
+        },
+        {
+            "image_file_name": "3fafab49-f9a6-4781-912c-c60a91dec5cf_015320.jpeg",
+            "bbox": [
+                648.28,
+                990.27,
+                215.2,
+                154.85
+            ],
+            "pos_queries": [
+                "A brown towel"
+            ],
+            "neg_queries": [
+                "A dark_blue bucket",
+                "A dark_blue bucket"
+            ]
+        },
+        {
+            "image_file_name": "3fafab49-f9a6-4781-912c-c60a91dec5cf_015320.jpeg",
+            "bbox": [
+                670.62,
+                1156.34,
+                47.75,
+                80.18
+            ],
+            "pos_queries": [
+                "A brown towel"
+            ],
+            "neg_queries": [
+                "A light_yellow carton",
+                "A light_yellow carton"
+            ]
+        },
+        {
+            "image_file_name": "3fe80cfa-8dba-4fb6-9c27-b835de536130_000594.jpeg",
+            "bbox": [
+                899.89,
+                1098.1,
+                255.91,
+                203.93
+            ],
+            "pos_queries": [
+                "A blue towel"
+            ],
+            "neg_queries": [
+                "A light_grey car_(automobile)",
+                "A light_grey car_(automobile)"
+            ]
+        },
+        {
+            "image_file_name": "4f4e1a08-c4f4-4a38-818b-28fab7dc94a0_019467.jpeg",
+            "bbox": [
+                559.49,
+                517.09,
+                359.95,
+                160.06
+            ],
+            "pos_queries": [
+                "A dark_brown table"
+            ],
+            "neg_queries": [
+                "A red scissors",
+                "A red scissors"
+            ]
+        },
+        {
+            "image_file_name": "4f4e1a08-c4f4-4a38-818b-28fab7dc94a0_019467.jpeg",
+            "bbox": [
+                1562.1,
+                1019.34,
+                173.36,
+                60.82
+            ],
+            "pos_queries": [
+                "A plain glass_(drink_container)"
+            ],
+            "neg_queries": [
+                "A orange wrench",
+                "A orange wrench"
+            ]
+        },
+        {
+            "image_file_name": "4f4e1a08-c4f4-4a38-818b-28fab7dc94a0_019467.jpeg",
+            "bbox": [
+                1577.41,
+                896.83,
+                190.01,
+                147.34
+            ],
+            "pos_queries": [
+                "A white bowl"
+            ],
+            "neg_queries": [
+                "A light_brown blender",
+                "A light_brown blender"
+            ]
+        },
+        {
+            "image_file_name": "4f4e1a08-c4f4-4a38-818b-28fab7dc94a0_019467.jpeg",
+            "bbox": [
+                1755.58,
+                880.4,
+                146.04,
+                142.52
+            ],
+            "pos_queries": [
+                "A white bowl"
+            ],
+            "neg_queries": [
+                "A blue blender",
+                "A blue blender"
+            ]
+        },
+        {
+            "image_file_name": "4f4e1a08-c4f4-4a38-818b-28fab7dc94a0_019467.jpeg",
+            "bbox": [
+                40.5,
+                625.38,
+                1879.42,
+                454.82
+            ],
+            "pos_queries": [
+                "A brown table"
+            ],
+            "neg_queries": [
+                "A grey wrench",
+                "A grey wrench"
+            ]
+        },
+        {
+            "image_file_name": "4f4e1a08-c4f4-4a38-818b-28fab7dc94a0_019467.jpeg",
+            "bbox": [
+                21.43,
+                543.36,
+                187.45,
+                170.88
+            ],
+            "pos_queries": [
+                "A brown table"
+            ],
+            "neg_queries": [
+                "A light_brown television_set",
+                "A light_brown television_set"
+            ]
+        },
+        {
+            "image_file_name": "518f1a3e-f62f-4889-b2fb-de94146e254f_031387.jpeg",
+            "bbox": [
+                910.17,
+                256.77,
+                519.15,
+                837.8
+            ],
+            "pos_queries": [
+                "A black book"
+            ],
+            "neg_queries": [
+                "A dark_orange hat",
+                "A dark_orange hat"
+            ]
+        },
+        {
+            "image_file_name": "5afe1e42-d44f-4c1d-bfd1-84de861b4492_004738.jpeg",
+            "bbox": [
+                0.0,
+                325.48,
+                1298.63,
+                1117.81
+            ],
+            "pos_queries": [
+                "A black towel"
+            ],
+            "neg_queries": [
+                "A light_brown bowl",
+                "A light_brown bowl"
+            ]
+        },
+        {
+            "image_file_name": "5baf4e1b-582a-4fbc-9391-3e794057c759_010685.jpeg",
+            "bbox": [
+                737.59,
+                912.17,
+                206.69,
+                145.91
+            ],
+            "pos_queries": [
+                "A light_grey spoon"
+            ],
+            "neg_queries": [
+                "A brown book",
+                "A brown book"
+            ]
+        },
+        {
+            "image_file_name": "5fe81f9c-159c-4b83-807f-34866dd03a8b_012919.jpeg",
+            "bbox": [
+                691.0,
+                128.18,
+                462.94,
+                67.97
+            ],
+            "pos_queries": [
+                "A pink pencil"
+            ],
+            "neg_queries": [
+                "A light_red pliers",
+                "A light_red pliers"
+            ]
+        },
+        {
+            "image_file_name": "5fe81f9c-159c-4b83-807f-34866dd03a8b_012919.jpeg",
+            "bbox": [
+                691.71,
+                108.86,
+                465.8,
+                65.11
+            ],
+            "pos_queries": [
+                "A pink pencil"
+            ],
+            "neg_queries": [
+                "A light_blue ladder",
+                "A light_blue ladder"
+            ]
+        },
+        {
+            "image_file_name": "5fe81f9c-159c-4b83-807f-34866dd03a8b_012919.jpeg",
+            "bbox": [
+                692.27,
+                216.59,
+                481.55,
+                48.66
+            ],
+            "pos_queries": [
+                "A pink pencil"
+            ],
+            "neg_queries": [
+                "A dark_grey cellular_telephone",
+                "A dark_grey cellular_telephone"
+            ]
+        },
+        {
+            "image_file_name": "5fe81f9c-159c-4b83-807f-34866dd03a8b_012919.jpeg",
+            "bbox": [
+                692.99,
+                178.2,
+                476.54,
+                52.95
+            ],
+            "pos_queries": [
+                "A pink pencil"
+            ],
+            "neg_queries": [
+                "A grey bottle",
+                "A grey bottle"
+            ]
+        },
+        {
+            "image_file_name": "5fe81f9c-159c-4b83-807f-34866dd03a8b_012919.jpeg",
+            "bbox": [
+                693.15,
+                158.95,
+                473.67,
+                51.52
+            ],
+            "pos_queries": [
+                "A pink pencil"
+            ],
+            "neg_queries": [
+                "A blue cellular_telephone",
+                "A blue cellular_telephone"
+            ]
+        },
+        {
+            "image_file_name": "5fe81f9c-159c-4b83-807f-34866dd03a8b_012919.jpeg",
+            "bbox": [
+                693.7,
+                197.27,
+                476.54,
+                52.95
+            ],
+            "pos_queries": [
+                "A pink pencil"
+            ],
+            "neg_queries": [
+                "A light_red pliers",
+                "A light_red pliers"
+            ]
+        },
+        {
+            "image_file_name": "5fe81f9c-159c-4b83-807f-34866dd03a8b_012919.jpeg",
+            "bbox": [
+                1306.49,
+                149.77,
+                293.66,
+                390.28
+            ],
+            "pos_queries": [
+                "A pink pencil"
+            ],
+            "neg_queries": [
+                "A red screwdriver",
+                "A red screwdriver"
+            ]
+        },
+        {
+            "image_file_name": "5fe81f9c-159c-4b83-807f-34866dd03a8b_012919.jpeg",
+            "bbox": [
+                1408.8,
+                106.83,
+                202.17,
+                409.76
+            ],
+            "pos_queries": [
+                "A pink pencil"
+            ],
+            "neg_queries": [
+                "A light_brown drill",
+                "A light_brown drill"
+            ]
+        },
+        {
+            "image_file_name": "5fe81f9c-159c-4b83-807f-34866dd03a8b_012919.jpeg",
+            "bbox": [
+                1519.52,
+                135.51,
+                306.35,
+                313.68
+            ],
+            "pos_queries": [
+                "A pink pencil"
+            ],
+            "neg_queries": [
+                "A light_grey drill",
+                "A light_grey drill"
+            ]
+        },
+        {
+            "image_file_name": "5fe81f9c-159c-4b83-807f-34866dd03a8b_012919.jpeg",
+            "bbox": [
+                1520.83,
+                75.61,
+                320.25,
+                358.06
+            ],
+            "pos_queries": [
+                "A pink pencil"
+            ],
+            "neg_queries": [
+                "A light_brown cellular_telephone",
+                "A light_brown cellular_telephone"
+            ]
+        },
+        {
+            "image_file_name": "5fe81f9c-159c-4b83-807f-34866dd03a8b_012919.jpeg",
+            "bbox": [
+                1839.17,
+                416.53,
+                61.36,
+                64.16
+            ],
+            "pos_queries": [
+                "A orange pencil"
+            ],
+            "neg_queries": [
+                "A light_blue ladder",
+                "A light_blue ladder"
+            ]
+        },
+        {
+            "image_file_name": "60209262-ab8e-4214-a8dd-4764a9a4b26d_052882.jpeg",
+            "bbox": [
+                1164.64,
+                813.83,
+                306.57,
+                262.32
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A dark_red can",
+                "A dark_red can"
+            ]
+        },
+        {
+            "image_file_name": "65117801-d058-4203-a72d-ac8ed4903405_005566.jpeg",
+            "bbox": [
+                312.84,
+                832.39,
+                168.7,
+                247.43
+            ],
+            "pos_queries": [
+                "A brown towel"
+            ],
+            "neg_queries": [
+                "A black clock",
+                "A black clock"
+            ]
+        },
+        {
+            "image_file_name": "693b30f6-d778-463e-8cc9-b2bf8235225f_032024.jpeg",
+            "bbox": [
+                307.52,
+                841.5,
+                195.32,
+                180.78
+            ],
+            "pos_queries": [
+                "A pink towel"
+            ],
+            "neg_queries": [
+                "A blue broom",
+                "A blue broom"
+            ]
+        },
+        {
+            "image_file_name": "69c9d98e-c125-4d24-b180-aea768ef900a_008159.jpeg",
+            "bbox": [
+                857.33,
+                1010.78,
+                185.21,
+                285.7
+            ],
+            "pos_queries": [
+                "A black towel"
+            ],
+            "neg_queries": [
+                "A grey calculator",
+                "A grey calculator"
+            ]
+        },
+        {
+            "image_file_name": "6ad19348-15b0-4411-b544-8a3fac59dd21_036926.jpeg",
+            "bbox": [
+                516.5,
+                1.45,
+                288.88,
+                222.99
+            ],
+            "pos_queries": [
+                "A grey book"
+            ],
+            "neg_queries": [
+                "A dark_grey laptop_computer",
+                "A dark_grey laptop_computer"
+            ]
+        },
+        {
+            "image_file_name": "6ad19348-15b0-4411-b544-8a3fac59dd21_036926.jpeg",
+            "bbox": [
+                775.16,
+                150.91,
+                474.34,
+                397.53
+            ],
+            "pos_queries": [
+                "A purple towel"
+            ],
+            "neg_queries": [
+                "A dark_purple ball",
+                "A dark_purple ball"
+            ]
+        },
+        {
+            "image_file_name": "6ad19348-15b0-4411-b544-8a3fac59dd21_036926.jpeg",
+            "bbox": [
+                529.17,
+                31.86,
+                248.33,
+                208.42
+            ],
+            "pos_queries": [
+                "A grey book"
+            ],
+            "neg_queries": [
+                "A brown kettle",
+                "A brown kettle"
+            ]
+        },
+        {
+            "image_file_name": "6fea409b-159e-45cb-8fac-da7779d02309_018420.jpeg",
+            "bbox": [
+                769.92,
+                1138.56,
+                282.24,
+                241.92
+            ],
+            "pos_queries": [
+                "A black towel"
+            ],
+            "neg_queries": [
+                "A light_yellow handbag",
+                "A light_yellow handbag"
+            ]
+        },
+        {
+            "image_file_name": "78c57672-9bb9-4dd8-b894-8345a3f63269_032510.jpeg",
+            "bbox": [
+                696.28,
+                788.59,
+                145.55,
+                292.09
+            ],
+            "pos_queries": [
+                "A brown towel"
+            ],
+            "neg_queries": [
+                "A dark_grey book",
+                "A dark_grey book"
+            ]
+        },
+        {
+            "image_file_name": "78c57672-9bb9-4dd8-b894-8345a3f63269_032510.jpeg",
+            "bbox": [
+                806.91,
+                683.6,
+                221.74,
+                396.4
+            ],
+            "pos_queries": [
+                "A dark_grey bottle"
+            ],
+            "neg_queries": [
+                "A yellow book",
+                "A yellow book"
+            ]
+        },
+        {
+            "image_file_name": "7921902b-293f-49e2-9401-d96791a90e15_003537.jpeg",
+            "bbox": [
+                701.09,
+                716.22,
+                440.49,
+                361.47
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A light_green stool",
+                "A light_green stool"
+            ]
+        },
+        {
+            "image_file_name": "79f47a60-f1e9-4232-88b8-a1836e7dfd30_000995.jpeg",
+            "bbox": [
+                893.85,
+                1129.85,
+                310.21,
+                310.17
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A black hammer",
+                "A black hammer"
+            ]
+        },
+        {
+            "image_file_name": "79f47a60-f1e9-4232-88b8-a1836e7dfd30_000995.jpeg",
+            "bbox": [
+                1696.21,
+                1198.0,
+                223.87,
+                140.8
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A dark_pink helmet",
+                "A dark_pink helmet"
+            ]
+        },
+        {
+            "image_file_name": "7c66e365-f716-4a8a-a312-f72ae7c1a727_000444.jpeg",
+            "bbox": [
+                789.16,
+                1138.13,
+                208.32,
+                231.95
+            ],
+            "pos_queries": [
+                "A black towel"
+            ],
+            "neg_queries": [
+                "A dark_grey slipper_(footwear)",
+                "A dark_grey slipper_(footwear)"
+            ]
+        },
+        {
+            "image_file_name": "80b483b5-8c36-4447-a47b-f7939edfd88b_002912.jpeg",
+            "bbox": [
+                136.63,
+                576.76,
+                247.91,
+                305.17
+            ],
+            "pos_queries": [
+                "A pink towel"
+            ],
+            "neg_queries": [
+                "A dark_green spoon",
+                "A dark_green spoon"
+            ]
+        },
+        {
+            "image_file_name": "80b483b5-8c36-4447-a47b-f7939edfd88b_002912.jpeg",
+            "bbox": [
+                843.45,
+                134.71,
+                503.12,
+                548.22
+            ],
+            "pos_queries": [
+                "A pink towel"
+            ],
+            "neg_queries": [
+                "A other(color) spoon",
+                "A other(color) spoon"
+            ]
+        },
+        {
+            "image_file_name": "80b483b5-8c36-4447-a47b-f7939edfd88b_002912.jpeg",
+            "bbox": [
+                1384.55,
+                593.76,
+                234.48,
+                343.77
+            ],
+            "pos_queries": [
+                "A pink towel"
+            ],
+            "neg_queries": [
+                "A other(color) dog",
+                "A other(color) dog"
+            ]
+        },
+        {
+            "image_file_name": "80b483b5-8c36-4447-a47b-f7939edfd88b_002912.jpeg",
+            "bbox": [
+                1685.03,
+                173.16,
+                219.26,
+                233.76
+            ],
+            "pos_queries": [
+                "A pink towel"
+            ],
+            "neg_queries": [
+                "A blue spoon",
+                "A blue spoon"
+            ]
+        },
+        {
+            "image_file_name": "817e443a-d5a3-4cd4-87ab-95a2dd2a4fab_020439.jpeg",
+            "bbox": [
+                843.42,
+                428.38,
+                312.51,
+                338.55
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A brown fan",
+                "A brown fan"
+            ]
+        },
+        {
+            "image_file_name": "81cee65a-afe3-4dc2-a31e-3b67b062bf35_007471.jpeg",
+            "bbox": [
+                259.28,
+                0.5,
+                379.31,
+                376.56
+            ],
+            "pos_queries": [
+                "A light_brown table"
+            ],
+            "neg_queries": [
+                "A brown car_(automobile)",
+                "A brown car_(automobile)"
+            ]
+        },
+        {
+            "image_file_name": "81cee65a-afe3-4dc2-a31e-3b67b062bf35_007471.jpeg",
+            "bbox": [
+                1111.06,
+                415.69,
+                346.61,
+                389.3
+            ],
+            "pos_queries": [
+                "A pink towel"
+            ],
+            "neg_queries": [
+                "A grey spoon",
+                "A grey spoon"
+            ]
+        },
+        {
+            "image_file_name": "81cee65a-afe3-4dc2-a31e-3b67b062bf35_007471.jpeg",
+            "bbox": [
+                675.36,
+                326.05,
+                1007.06,
+                1052.73
+            ],
+            "pos_queries": [
+                "A dark_blue table"
+            ],
+            "neg_queries": [
+                "A dark_purple pliers",
+                "A dark_purple pliers"
+            ]
+        },
+        {
+            "image_file_name": "826e419a-8788-484f-9543-550964666762_070835.jpeg",
+            "bbox": [
+                1030.68,
+                633.7,
+                406.85,
+                379.73
+            ],
+            "pos_queries": [
+                "A red towel"
+            ],
+            "neg_queries": [
+                "A dark_red chair",
+                "A dark_red chair"
+            ]
+        },
+        {
+            "image_file_name": "84020280-95d3-47c3-9716-647c25a9cb3c_006892.jpeg",
+            "bbox": [
+                -0.11,
+                393.44,
+                610.85,
+                489.61
+            ],
+            "pos_queries": [
+                "A grey towel"
+            ],
+            "neg_queries": [
+                "A dark_purple watch",
+                "A dark_purple watch"
+            ]
+        },
+        {
+            "image_file_name": "84020280-95d3-47c3-9716-647c25a9cb3c_006892.jpeg",
+            "bbox": [
+                1670.96,
+                871.11,
+                248.97,
+                268.72
+            ],
+            "pos_queries": [
+                "A white bowl"
+            ],
+            "neg_queries": [
+                "A light_blue watch",
+                "A light_blue watch"
+            ]
+        },
+        {
+            "image_file_name": "86b7a8dc-e0ba-4b21-a097-eed463fb2747_014274.jpeg",
+            "bbox": [
+                820.24,
+                975.39,
+                161.65,
+                171.8
+            ],
+            "pos_queries": [
+                "A black towel"
+            ],
+            "neg_queries": [
+                "A dark_green screwdriver",
+                "A dark_green screwdriver"
+            ]
+        },
+        {
+            "image_file_name": "8d4895eb-b2d1-43b8-90f1-e80fcc37797b_435141.jpeg",
+            "bbox": [
+                767.39,
+                673.63,
+                592.12,
+                405.84
+            ],
+            "pos_queries": [
+                "A black table"
+            ],
+            "neg_queries": [
+                "A green lamp",
+                "A green lamp"
+            ]
+        },
+        {
+            "image_file_name": "8d4895eb-b2d1-43b8-90f1-e80fcc37797b_435141.jpeg",
+            "bbox": [
+                1143.05,
+                476.54,
+                170.0,
+                151.29
+            ],
+            "pos_queries": [
+                "A black table"
+            ],
+            "neg_queries": [
+                "A dark_brown ladder",
+                "A dark_brown ladder"
+            ]
+        },
+        {
+            "image_file_name": "8d4895eb-b2d1-43b8-90f1-e80fcc37797b_435141.jpeg",
+            "bbox": [
+                1311.26,
+                757.62,
+                608.26,
+                322.53
+            ],
+            "pos_queries": [
+                "A black table"
+            ],
+            "neg_queries": [
+                "A light_blue lamp",
+                "A light_blue lamp"
+            ]
+        },
+        {
+            "image_file_name": "8dadb485-dcb6-4429-b78d-781e6c5aa2a3_017144.jpeg",
+            "bbox": [
+                723.8,
+                1128.58,
+                275.74,
+                187.95
+            ],
+            "pos_queries": [
+                "A black towel"
+            ],
+            "neg_queries": [
+                "A dark_blue slipper_(footwear)",
+                "A dark_blue slipper_(footwear)"
+            ]
+        },
+        {
+            "image_file_name": "8dadb485-dcb6-4429-b78d-781e6c5aa2a3_017144.jpeg",
+            "bbox": [
+                1718.61,
+                585.35,
+                201.38,
+                227.82
+            ],
+            "pos_queries": [
+                "A light_brown towel"
+            ],
+            "neg_queries": [
+                "A dark_red pencil",
+                "A dark_red pencil"
+            ]
+        },
+        {
+            "image_file_name": "8db05748-e83e-4422-ac45-de586be75f70_050627.jpeg",
+            "bbox": [
+                71.76,
+                -0.31,
+                1494.45,
+                1079.37
+            ],
+            "pos_queries": [
+                "A dark_brown table"
+            ],
+            "neg_queries": [
+                "A brown drum_(musical_instrument)",
+                "A brown drum_(musical_instrument)"
+            ]
+        },
+        {
+            "image_file_name": "8db05748-e83e-4422-ac45-de586be75f70_050627.jpeg",
+            "bbox": [
+                973.4,
+                307.54,
+                433.36,
+                287.49
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A dark_red drum_(musical_instrument)",
+                "A dark_red drum_(musical_instrument)"
+            ]
+        },
+        {
+            "image_file_name": "9075cfdf-82eb-4cde-8328-f6ce631f101a_001116.jpeg",
+            "bbox": [
+                524.04,
+                524.09,
+                1395.99,
+                555.91
+            ],
+            "pos_queries": [
+                "A white table"
+            ],
+            "neg_queries": [
+                "A dark_blue bucket",
+                "A dark_blue bucket"
+            ]
+        },
+        {
+            "image_file_name": "9075cfdf-82eb-4cde-8328-f6ce631f101a_001116.jpeg",
+            "bbox": [
+                1415.88,
+                574.33,
+                343.42,
+                171.36
+            ],
+            "pos_queries": [
+                "A grey laptop_computer"
+            ],
+            "neg_queries": [
+                "A light_grey basket",
+                "A light_grey basket"
+            ]
+        },
+        {
+            "image_file_name": "91a17f87-385d-42bd-a916-54fe5dade524_109468.jpeg",
+            "bbox": [
+                586.06,
+                668.28,
+                160.03,
+                310.15
+            ],
+            "pos_queries": [
+                "A white towel"
+            ],
+            "neg_queries": [
+                "A green napkin",
+                "A green napkin"
+            ]
+        },
+        {
+            "image_file_name": "940ff963-ab1c-496f-991c-b23c29714f73_000459.jpeg",
+            "bbox": [
+                7.16,
+                1.16,
+                1912.71,
+                1078.46
+            ],
+            "pos_queries": [
+                "A red car_(automobile)"
+            ],
+            "neg_queries": [
+                "A light_orange pliers",
+                "A light_orange pliers"
+            ]
+        },
+        {
+            "image_file_name": "940ff963-ab1c-496f-991c-b23c29714f73_000459.jpeg",
+            "bbox": [
+                -0.81,
+                292.31,
+                163.13,
+                183.81
+            ],
+            "pos_queries": [
+                "A plain car_(automobile)"
+            ],
+            "neg_queries": [
+                "A light_blue knife",
+                "A light_blue knife"
+            ]
+        },
+        {
+            "image_file_name": "941a7e25-09f7-4bed-a427-1022a8711783_009712.jpeg",
+            "bbox": [
+                400.66,
+                453.2,
+                191.22,
+                262.3
+            ],
+            "pos_queries": [
+                "A black handbag"
+            ],
+            "neg_queries": [
+                "A blue bucket",
+                "A blue bucket"
+            ]
+        },
+        {
+            "image_file_name": "95bea92c-2fe2-437d-ad03-b7c91e35117e_035060.jpeg",
+            "bbox": [
+                769.59,
+                52.13,
+                671.92,
+                437.67
+            ],
+            "pos_queries": [
+                "A light_green towel"
+            ],
+            "neg_queries": [
+                "A purple bucket",
+                "A purple bucket"
+            ]
+        },
+        {
+            "image_file_name": "975442f2-38d0-471e-8989-7e6668abe679_001866.jpeg",
+            "bbox": [
+                54.92,
+                -0.04,
+                1710.34,
+                1059.9
+            ],
+            "pos_queries": [
+                "A white table"
+            ],
+            "neg_queries": [
+                "A dark_orange plastic_bag",
+                "A dark_orange plastic_bag"
+            ]
+        },
+        {
+            "image_file_name": "98b7d386-4a87-4794-87cf-f5e5729b01e9_088493.jpeg",
+            "bbox": [
+                0.0,
+                0.0,
+                1392.48,
+                1081.44
+            ],
+            "pos_queries": [
+                "A light_brown bench"
+            ],
+            "neg_queries": [
+                "A brown mirror",
+                "A brown mirror"
+            ]
+        },
+        {
+            "image_file_name": "98b7d386-4a87-4794-87cf-f5e5729b01e9_088493.jpeg",
+            "bbox": [
+                119.77,
+                198.11,
+                1033.27,
+                588.03
+            ],
+            "pos_queries": [
+                "A dark_blue towel"
+            ],
+            "neg_queries": [
+                "A light_grey pan_(for_cooking)",
+                "A light_grey pan_(for_cooking)"
+            ]
+        },
+        {
+            "image_file_name": "998100d5-7fc9-40fd-b136-54eb3aa7628a_045827.jpeg",
+            "bbox": [
+                670.68,
+                835.97,
+                473.42,
+                448.96
+            ],
+            "pos_queries": [
+                "A red towel"
+            ],
+            "neg_queries": [
+                "A light_purple broom",
+                "A light_purple broom"
+            ]
+        },
+        {
+            "image_file_name": "99aba993-a08c-4253-bbfb-6affb63a86f3_009628.jpeg",
+            "bbox": [
+                386.04,
+                296.43,
+                546.89,
+                280.34
+            ],
+            "pos_queries": [
+                "A black table"
+            ],
+            "neg_queries": [
+                "A blue jar",
+                "A blue jar"
+            ]
+        },
+        {
+            "image_file_name": "99aba993-a08c-4253-bbfb-6affb63a86f3_009628.jpeg",
+            "bbox": [
+                677.94,
+                285.08,
+                100.13,
+                100.13
+            ],
+            "pos_queries": [
+                "A grey bowl"
+            ],
+            "neg_queries": [
+                "A other(color) pliers",
+                "A other(color) pliers"
+            ]
+        },
+        {
+            "image_file_name": "9a30454f-b06b-45b7-a8a0-90d3f4ea2eb1_021388.jpeg",
+            "bbox": [
+                241.71,
+                258.29,
+                225.83,
+                247.91
+            ],
+            "pos_queries": [
+                "A light_brown plate"
+            ],
+            "neg_queries": [
+                "A dark_orange car_(automobile)",
+                "A dark_orange car_(automobile)"
+            ]
+        },
+        {
+            "image_file_name": "9a30454f-b06b-45b7-a8a0-90d3f4ea2eb1_021388.jpeg",
+            "bbox": [
+                555.28,
+                281.5,
+                357.15,
+                376.96
+            ],
+            "pos_queries": [
+                "A brown plate"
+            ],
+            "neg_queries": [
+                "A light_grey soap",
+                "A light_grey soap"
+            ]
+        },
+        {
+            "image_file_name": "9a30454f-b06b-45b7-a8a0-90d3f4ea2eb1_021388.jpeg",
+            "bbox": [
+                738.85,
+                522.96,
+                71.32,
+                106.81
+            ],
+            "pos_queries": [
+                "A green scissors"
+            ],
+            "neg_queries": [
+                "A light_pink vase",
+                "A light_pink vase"
+            ]
+        },
+        {
+            "image_file_name": "9ab7a4bd-533a-40da-9515-eb46f9354cbb_000963.jpeg",
+            "bbox": [
+                1088.56,
+                751.4,
+                144.27,
+                74.7
+            ],
+            "pos_queries": [
+                "A dark_purple telephone"
+            ],
+            "neg_queries": [
+                "A yellow laptop_computer",
+                "A yellow laptop_computer"
+            ]
+        },
+        {
+            "image_file_name": "9ab7a4bd-533a-40da-9515-eb46f9354cbb_040266.jpeg",
+            "bbox": [
+                1058.94,
+                575.64,
+                126.78,
+                54.6
+            ],
+            "pos_queries": [
+                "A dark_purple telephone"
+            ],
+            "neg_queries": [
+                "A yellow watch",
+                "A yellow watch"
+            ]
+        },
+        {
+            "image_file_name": "9ab7a4bd-533a-40da-9515-eb46f9354cbb_040266.jpeg",
+            "bbox": [
+                1518.86,
+                880.24,
+                94.68,
+                176.03
+            ],
+            "pos_queries": [
+                "A black telephone"
+            ],
+            "neg_queries": [
+                "A light_red bowl",
+                "A light_red bowl"
+            ]
+        },
+        {
+            "image_file_name": "9ae31deb-8f1b-4a7a-bf16-19c33449d789_019401.jpeg",
+            "bbox": [
+                1078.56,
+                348.48,
+                59.04,
+                113.76
+            ],
+            "pos_queries": [
+                "A black pencil"
+            ],
+            "neg_queries": [
+                "A light_orange can",
+                "A light_orange can"
+            ]
+        },
+        {
+            "image_file_name": "9ae31deb-8f1b-4a7a-bf16-19c33449d789_019401.jpeg",
+            "bbox": [
+                437.76,
+                443.52,
+                656.64,
+                325.44
+            ],
+            "pos_queries": [
+                "A yellow tape_(sticky_cloth_or_paper)"
+            ],
+            "neg_queries": [
+                "A light_blue car_(automobile)",
+                "A light_blue car_(automobile)"
+            ]
+        },
+        {
+            "image_file_name": "9b8cf89b-e80b-47d1-ba5d-5b0a5a526285_022925.jpeg",
+            "bbox": [
+                -1.34,
+                0.34,
+                1200.24,
+                1382.14
+            ],
+            "pos_queries": [
+                "A light_brown table"
+            ],
+            "neg_queries": [
+                "A dark_orange tape_(sticky_cloth_or_paper)",
+                "A dark_orange tape_(sticky_cloth_or_paper)"
+            ]
+        },
+        {
+            "image_file_name": "9b8cf89b-e80b-47d1-ba5d-5b0a5a526285_022925.jpeg",
+            "bbox": [
+                1104.37,
+                391.19,
+                570.51,
+                419.77
+            ],
+            "pos_queries": [
+                "A blue knife"
+            ],
+            "neg_queries": [
+                "A light_orange chair",
+                "A light_orange chair"
+            ]
+        },
+        {
+            "image_file_name": "9b8cf89b-e80b-47d1-ba5d-5b0a5a526285_022925.jpeg",
+            "bbox": [
+                1223.06,
+                736.18,
+                135.69,
+                137.72
+            ],
+            "pos_queries": [
+                "A white pencil"
+            ],
+            "neg_queries": [
+                "A light_red bowl",
+                "A light_red bowl"
+            ]
+        },
+        {
+            "image_file_name": "9d52af6e-c07a-4b1e-8063-ffb66c20de2a_027179.jpeg",
+            "bbox": [
+                381.37,
+                3.29,
+                1541.46,
+                1025.75
+            ],
+            "pos_queries": [
+                "A light_brown table"
+            ],
+            "neg_queries": [
+                "A dark_purple plastic_bag",
+                "A dark_purple plastic_bag"
+            ]
+        },
+        {
+            "image_file_name": "9d52af6e-c07a-4b1e-8063-ffb66c20de2a_027179.jpeg",
+            "bbox": [
+                542.47,
+                644.38,
+                230.14,
+                154.52
+            ],
+            "pos_queries": [
+                "A black bottle"
+            ],
+            "neg_queries": [
+                "A white earphone",
+                "A white earphone"
+            ]
+        },
+        {
+            "image_file_name": "9e08a7b1-eb04-4d11-bb0b-f4cd42f0a819_002284.jpeg",
+            "bbox": [
+                591.34,
+                583.6,
+                590.36,
+                416.38
+            ],
+            "pos_queries": [
+                "A black sweater"
+            ],
+            "neg_queries": [
+                "A light_yellow car_(automobile)",
+                "A light_yellow car_(automobile)"
+            ]
+        },
+        {
+            "image_file_name": "9e08a7b1-eb04-4d11-bb0b-f4cd42f0a819_002284.jpeg",
+            "bbox": [
+                1044.65,
+                149.03,
+                68.15,
+                210.28
+            ],
+            "pos_queries": [
+                "A black telephone"
+            ],
+            "neg_queries": [
+                "A other(color) hammer",
+                "A other(color) hammer"
+            ]
+        },
+        {
+            "image_file_name": "9e08a7b1-eb04-4d11-bb0b-f4cd42f0a819_002284.jpeg",
+            "bbox": [
+                889.96,
+                0.04,
+                343.14,
+                322.32
+            ],
+            "pos_queries": [
+                "A brown handbag"
+            ],
+            "neg_queries": [
+                "A light_brown jar",
+                "A light_brown jar"
+            ]
+        },
+        {
+            "image_file_name": "9e6982bd-f7fd-47ab-98c2-0b17c8e99d06_018973.jpeg",
+            "bbox": [
+                1908.23,
+                647.32,
+                477.96,
+                315.94
+            ],
+            "pos_queries": [
+                "A dark_green pen"
+            ],
+            "neg_queries": [
+                "A other(color) wrench",
+                "A other(color) wrench"
+            ]
+        },
+        {
+            "image_file_name": "9e6982bd-f7fd-47ab-98c2-0b17c8e99d06_018973.jpeg",
+            "bbox": [
+                1962.91,
+                481.25,
+                330.11,
+                42.53
+            ],
+            "pos_queries": [
+                "A purple pen"
+            ],
+            "neg_queries": [
+                "A dark_green dog",
+                "A dark_green dog"
+            ]
+        },
+        {
+            "image_file_name": "9e6982bd-f7fd-47ab-98c2-0b17c8e99d06_019832.jpeg",
+            "bbox": [
+                486.46,
+                353.97,
+                2074.06,
+                1565.81
+            ],
+            "pos_queries": [
+                "A other(pattern_marking) table"
+            ],
+            "neg_queries": [
+                "A brown tape_(sticky_cloth_or_paper)",
+                "A brown tape_(sticky_cloth_or_paper)"
+            ]
+        },
+        {
+            "image_file_name": "9e88251a-1468-45f8-b54e-669832057792_066530.jpeg",
+            "bbox": [
+                0.0,
+                1.38,
+                1439.08,
+                918.41
+            ],
+            "pos_queries": [
+                "A white table"
+            ],
+            "neg_queries": [
+                "A dark_yellow shoe",
+                "A dark_yellow shoe"
+            ]
+        },
+        {
+            "image_file_name": "a037eb93-9749-4022-8925-471aefb946b5_008834.jpeg",
+            "bbox": [
+                859.78,
+                1062.11,
+                374.99,
+                211.3
+            ],
+            "pos_queries": [
+                "A black knife"
+            ],
+            "neg_queries": [
+                "A white remote_control",
+                "A white remote_control"
+            ]
+        },
+        {
+            "image_file_name": "a037eb93-9749-4022-8925-471aefb946b5_012440.jpeg",
+            "bbox": [
+                912.27,
+                769.35,
+                221.68,
+                299.62
+            ],
+            "pos_queries": [
+                "A black knife"
+            ],
+            "neg_queries": [
+                "A dark_brown book",
+                "A dark_brown book"
+            ]
+        },
+        {
+            "image_file_name": "a063cad2-0b1a-4a26-8613-51b8e3890c5c_051149.jpeg",
+            "bbox": [
+                301.95,
+                48.95,
+                1609.41,
+                1022.63
+            ],
+            "pos_queries": [
+                "A light_brown table"
+            ],
+            "neg_queries": [
+                "A dark_orange broom",
+                "A dark_orange broom"
+            ]
+        },
+        {
+            "image_file_name": "a063cad2-0b1a-4a26-8613-51b8e3890c5c_051149.jpeg",
+            "bbox": [
+                1607.34,
+                493.29,
+                310.4,
+                246.62
+            ],
+            "pos_queries": [
+                "A black carton"
+            ],
+            "neg_queries": [
+                "A dark_red glass_(drink_container)",
+                "A dark_red glass_(drink_container)"
+            ]
+        },
+        {
+            "image_file_name": "a063cad2-0b1a-4a26-8613-51b8e3890c5c_051149.jpeg",
+            "bbox": [
+                1609.49,
+                497.04,
+                310.3,
+                244.79
+            ],
+            "pos_queries": [
+                "A black box"
+            ],
+            "neg_queries": [
+                "A dark_orange glass_(drink_container)",
+                "A dark_orange glass_(drink_container)"
+            ]
+        },
+        {
+            "image_file_name": "a063cad2-0b1a-4a26-8613-51b8e3890c5c_051149.jpeg",
+            "bbox": [
+                301.07,
+                212.85,
+                1615.17,
+                863.5
+            ],
+            "pos_queries": [
+                "A white box"
+            ],
+            "neg_queries": [
+                "A dark_yellow glass_(drink_container)",
+                "A dark_yellow glass_(drink_container)"
+            ]
+        },
+        {
+            "image_file_name": "a0e2e842-4877-403b-bcd1-e3ae35a36d21_000571.jpeg",
+            "bbox": [
+                788.59,
+                990.23,
+                176.78,
+                89.77
+            ],
+            "pos_queries": [
+                "A white telephone"
+            ],
+            "neg_queries": [
+                "A grey car_(automobile)",
+                "A grey car_(automobile)"
+            ]
+        },
+        {
+            "image_file_name": "a1277cc9-6b5e-4c63-9642-762ec33505a4_003176.jpeg",
+            "bbox": [
+                -0.03,
+                734.1,
+                603.08,
+                345.89
+            ],
+            "pos_queries": [
+                "A white plate"
+            ],
+            "neg_queries": [
+                "A dark_orange basket",
+                "A dark_orange basket"
+            ]
+        },
+        {
+            "image_file_name": "a1277cc9-6b5e-4c63-9642-762ec33505a4_003176.jpeg",
+            "bbox": [
+                1523.4,
+                614.65,
+                316.85,
+                410.94
+            ],
+            "pos_queries": [
+                "A plain glass_(drink_container)"
+            ],
+            "neg_queries": [
+                "A dark_orange box",
+                "A dark_orange box"
+            ]
+        },
+        {
+            "image_file_name": "a1277cc9-6b5e-4c63-9642-762ec33505a4_003176.jpeg",
+            "bbox": [
+                676.5,
+                1036.47,
+                380.31,
+                43.38
+            ],
+            "pos_queries": [
+                "A white plate"
+            ],
+            "neg_queries": [
+                "A dark_purple pen",
+                "A dark_purple pen"
+            ]
+        },
+        {
+            "image_file_name": "a1277cc9-6b5e-4c63-9642-762ec33505a4_003176.jpeg",
+            "bbox": [
+                0.23,
+                279.94,
+                1833.97,
+                799.34
+            ],
+            "pos_queries": [
+                "A white plate"
+            ],
+            "neg_queries": [
+                "A purple cup",
+                "A purple cup"
+            ]
+        },
+        {
+            "image_file_name": "a23b3840-0a21-4bdc-87df-b0c3b7df6bd2_013169.jpeg",
+            "bbox": [
+                1101.18,
+                878.36,
+                336.98,
+                559.8
+            ],
+            "pos_queries": [
+                "A grey towel"
+            ],
+            "neg_queries": [
+                "A black spoon",
+                "A black spoon"
+            ]
+        },
+        {
+            "image_file_name": "a2782998-77b3-47a5-ac62-ce483a420711_044344.jpeg",
+            "bbox": [
+                298.31,
+                1.38,
+                1142.15,
+                901.84
+            ],
+            "pos_queries": [
+                "A other(pattern_marking) table"
+            ],
+            "neg_queries": [
+                "A dark_purple slipper_(footwear)",
+                "A dark_purple slipper_(footwear)"
+            ]
+        },
+        {
+            "image_file_name": "a2942aa8-a9be-420e-b24f-b3a96a2b581c_000000.jpeg",
+            "bbox": [
+                0.11,
+                809.3,
+                130.46,
+                111.15
+            ],
+            "pos_queries": [
+                "A black pen"
+            ],
+            "neg_queries": [
+                "A dark_blue ball",
+                "A dark_blue ball"
+            ]
+        },
+        {
+            "image_file_name": "a2942aa8-a9be-420e-b24f-b3a96a2b581c_000000.jpeg",
+            "bbox": [
+                6.8100000000000005,
+                807.97,
+                60.1,
+                50.71
+            ],
+            "pos_queries": [
+                "A black pen"
+            ],
+            "neg_queries": [
+                "A green bench",
+                "A green bench"
+            ]
+        },
+        {
+            "image_file_name": "a2942aa8-a9be-420e-b24f-b3a96a2b581c_000000.jpeg",
+            "bbox": [
+                33.44,
+                801.8,
+                28.17,
+                36.76
+            ],
+            "pos_queries": [
+                "A black pen"
+            ],
+            "neg_queries": [
+                "A light_purple microwave_oven",
+                "A light_purple microwave_oven"
+            ]
+        },
+        {
+            "image_file_name": "a3ccd6c6-d126-4d49-972b-215414bfbb62_001479.jpeg",
+            "bbox": [
+                978.3,
+                1694.8,
+                233.64,
+                225.27
+            ],
+            "pos_queries": [
+                "A white cellular_telephone"
+            ],
+            "neg_queries": [
+                "A dark_pink watch",
+                "A dark_pink watch"
+            ]
+        },
+        {
+            "image_file_name": "a44630e0-cc98-438b-8143-2760afe80340_008477.jpeg",
+            "bbox": [
+                989.89,
+                903.95,
+                420.27,
+                176.07
+            ],
+            "pos_queries": [
+                "A black book"
+            ],
+            "neg_queries": [
+                "A dark_red napkin",
+                "A dark_red napkin"
+            ]
+        },
+        {
+            "image_file_name": "a44630e0-cc98-438b-8143-2760afe80340_008477.jpeg",
+            "bbox": [
+                1121.52,
+                830.4,
+                318.36,
+                247.59
+            ],
+            "pos_queries": [
+                "A blue book"
+            ],
+            "neg_queries": [
+                "A purple remote_control",
+                "A purple remote_control"
+            ]
+        },
+        {
+            "image_file_name": "a4d1163f-c58b-42ab-a067-de780782afdd_015478.jpeg",
+            "bbox": [
+                1415.92,
+                0.98,
+                112.34,
+                463.66
+            ],
+            "pos_queries": [
+                "A brown hammer"
+            ],
+            "neg_queries": [
+                "A pink kettle",
+                "A pink kettle"
+            ]
+        },
+        {
+            "image_file_name": "a4d1a74b-8ddb-4f1f-8b1c-8656b43507bf_015921.jpeg",
+            "bbox": [
+                935.05,
+                476.47,
+                169.33,
+                358.33
+            ],
+            "pos_queries": [
+                "A dark_grey hammer"
+            ],
+            "neg_queries": [
+                "A dark_blue mouse_(computer_equipment)",
+                "A dark_blue mouse_(computer_equipment)"
+            ]
+        },
+        {
+            "image_file_name": "a4d1a74b-8ddb-4f1f-8b1c-8656b43507bf_015921.jpeg",
+            "bbox": [
+                1132.3,
+                432.14,
+                180.95,
+                281.65
+            ],
+            "pos_queries": [
+                "A dark_grey hammer"
+            ],
+            "neg_queries": [
+                "A light_brown belt",
+                "A light_brown belt"
+            ]
+        },
+        {
+            "image_file_name": "a4eead21-a20a-45a3-9d6e-27318e60c997_029938.jpeg",
+            "bbox": [
+                0.1,
+                487.37,
+                1915.2,
+                950.33
+            ],
+            "pos_queries": [
+                "A brown table"
+            ],
+            "neg_queries": [
+                "A dark_green clock",
+                "A dark_green clock"
+            ]
+        },
+        {
+            "image_file_name": "a5b672f3-8715-47c9-ab44-57b657e4d4df_003037.jpeg",
+            "bbox": [
+                832.06,
+                40.06,
+                287.14,
+                196.42
+            ],
+            "pos_queries": [
+                "A black pipe"
+            ],
+            "neg_queries": [
+                "A other(color) bench",
+                "A other(color) bench"
+            ]
+        },
+        {
+            "image_file_name": "a5b672f3-8715-47c9-ab44-57b657e4d4df_003037.jpeg",
+            "bbox": [
+                1247.38,
+                -0.26,
+                393.21,
+                607.17
+            ],
+            "pos_queries": [
+                "A white bottle"
+            ],
+            "neg_queries": [
+                "A green tape_(sticky_cloth_or_paper)",
+                "A green tape_(sticky_cloth_or_paper)"
+            ]
+        },
+        {
+            "image_file_name": "a5b672f3-8715-47c9-ab44-57b657e4d4df_003037.jpeg",
+            "bbox": [
+                481.38,
+                -0.22,
+                350.57,
+                238.11
+            ],
+            "pos_queries": [
+                "A plain cup"
+            ],
+            "neg_queries": [
+                "A dark_blue tape_(sticky_cloth_or_paper)",
+                "A dark_blue tape_(sticky_cloth_or_paper)"
+            ]
+        },
+        {
+            "image_file_name": "a5e74924-6083-4618-b830-f528c5199ed9_086250.jpeg",
+            "bbox": [
+                771.18,
+                346.29,
+                190.29,
+                177.48
+            ],
+            "pos_queries": [
+                "A blue handbag"
+            ],
+            "neg_queries": [
+                "A dark_blue plate",
+                "A dark_blue plate"
+            ]
+        },
+        {
+            "image_file_name": "a5e74924-6083-4618-b830-f528c5199ed9_086250.jpeg",
+            "bbox": [
+                1570.89,
+                921.64,
+                113.01,
+                157.97
+            ],
+            "pos_queries": [
+                "A light_purple handbag"
+            ],
+            "neg_queries": [
+                "A light_purple belt",
+                "A light_purple belt"
+            ]
+        },
+        {
+            "image_file_name": "a5e74924-6083-4618-b830-f528c5199ed9_086250.jpeg",
+            "bbox": [
+                452.62,
+                529.5,
+                232.76,
+                256.6
+            ],
+            "pos_queries": [
+                "A grey telephone"
+            ],
+            "neg_queries": [
+                "A dark_brown sponge",
+                "A dark_brown sponge"
+            ]
+        },
+        {
+            "image_file_name": "a5e74924-6083-4618-b830-f528c5199ed9_086250.jpeg",
+            "bbox": [
+                1739.31,
+                104.24,
+                180.15,
+                214.65
+            ],
+            "pos_queries": [
+                "A light_grey telephone"
+            ],
+            "neg_queries": [
+                "A purple newspaper",
+                "A purple newspaper"
+            ]
+        },
+        {
+            "image_file_name": "a5e74924-6083-4618-b830-f528c5199ed9_086250.jpeg",
+            "bbox": [
+                0.58,
+                217.16,
+                98.13,
+                158.63
+            ],
+            "pos_queries": [
+                "A dark_grey telephone"
+            ],
+            "neg_queries": [
+                "A light_purple sponge",
+                "A light_purple sponge"
+            ]
+        },
+        {
+            "image_file_name": "a5e74924-6083-4618-b830-f528c5199ed9_093210.jpeg",
+            "bbox": [
+                1363.13,
+                510.39,
+                459.79,
+                568.68
+            ],
+            "pos_queries": [
+                "A blue handbag"
+            ],
+            "neg_queries": [
+                "A brown cup",
+                "A brown cup"
+            ]
+        },
+        {
+            "image_file_name": "a5e74924-6083-4618-b830-f528c5199ed9_178169.jpeg",
+            "bbox": [
+                862.56,
+                348.63,
+                135.06,
+                310.89
+            ],
+            "pos_queries": [
+                "A purple bottle"
+            ],
+            "neg_queries": [
+                "A light_blue soap",
+                "A light_blue soap"
+            ]
+        },
+        {
+            "image_file_name": "a5f6e92a-2a22-402a-bf0f-c4ef56e35233_017055.jpeg",
+            "bbox": [
+                1632.74,
+                368.29,
+                206.24,
+                196.42
+            ],
+            "pos_queries": [
+                "A black telephone"
+            ],
+            "neg_queries": [
+                "A red microwave_oven",
+                "A red microwave_oven"
+            ]
+        },
+        {
+            "image_file_name": "a723d89c-78b7-4325-b18e-b8a4436a27ca_020117.jpeg",
+            "bbox": [
+                0.0,
+                56.99,
+                2393.42,
+                1753.42
+            ],
+            "pos_queries": [
+                "A other(pattern_marking) table"
+            ],
+            "neg_queries": [
+                "A red jar",
+                "A red jar"
+            ]
+        },
+        {
+            "image_file_name": "a723d89c-78b7-4325-b18e-b8a4436a27ca_020117.jpeg",
+            "bbox": [
+                1429.76,
+                799.24,
+                895.1,
+                174.8
+            ],
+            "pos_queries": [
+                "A black pencil"
+            ],
+            "neg_queries": [
+                "A white carton",
+                "A white carton"
+            ]
+        },
+        {
+            "image_file_name": "a723d89c-78b7-4325-b18e-b8a4436a27ca_020117.jpeg",
+            "bbox": [
+                21.92,
+                56.99,
+                1770.96,
+                1543.01
+            ],
+            "pos_queries": [
+                "A light_brown book"
+            ],
+            "neg_queries": [
+                "A yellow crate",
+                "A yellow crate"
+            ]
+        },
+        {
+            "image_file_name": "a7249b7e-ebba-462a-a0e8-119b6cb07c6a_017669.jpeg",
+            "bbox": [
+                6.24,
+                20.8,
+                440.58,
+                301.05
+            ],
+            "pos_queries": [
+                "A dark_pink tape_(sticky_cloth_or_paper)"
+            ],
+            "neg_queries": [
+                "A yellow belt",
+                "A yellow belt"
+            ]
+        },
+        {
+            "image_file_name": "a729afb1-61c3-41d7-869d-90f061f3bc0c_053408.jpeg",
+            "bbox": [
+                1147.61,
+                756.98,
+                1006.58,
+                1162.26
+            ],
+            "pos_queries": [
+                "A yellow tape_(sticky_cloth_or_paper)"
+            ],
+            "neg_queries": [
+                "A blue mug",
+                "A blue mug"
+            ]
+        },
+        {
+            "image_file_name": "a793c16e-918a-4900-af3e-12e262a2a2d9_011253.jpeg",
+            "bbox": [
+                291.09,
+                -1.8,
+                1127.79,
+                822.82
+            ],
+            "pos_queries": [
+                "A other(pattern_marking) table"
+            ],
+            "neg_queries": [
+                "A dark_purple drum_(musical_instrument)",
+                "A dark_purple drum_(musical_instrument)"
+            ]
+        },
+        {
+            "image_file_name": "a793c16e-918a-4900-af3e-12e262a2a2d9_011253.jpeg",
+            "bbox": [
+                471.38,
+                -1.1400000000000001,
+                132.72,
+                43.08
+            ],
+            "pos_queries": [
+                "A white plate"
+            ],
+            "neg_queries": [
+                "A white fan",
+                "A white fan"
+            ]
+        },
+        {
+            "image_file_name": "a793c16e-918a-4900-af3e-12e262a2a2d9_011253.jpeg",
+            "bbox": [
+                999.38,
+                218.27,
+                232.73,
+                220.6
+            ],
+            "pos_queries": [
+                "A white plate"
+            ],
+            "neg_queries": [
+                "A dark_orange can",
+                "A dark_orange can"
+            ]
+        },
+        {
+            "image_file_name": "a793c16e-918a-4900-af3e-12e262a2a2d9_024961.jpeg",
+            "bbox": [
+                157.47,
+                1.32,
+                1181.3,
+                755.84
+            ],
+            "pos_queries": [
+                "A other(pattern_marking) table"
+            ],
+            "neg_queries": [
+                "A dark_orange bowl",
+                "A dark_orange bowl"
+            ]
+        },
+        {
+            "image_file_name": "a793c16e-918a-4900-af3e-12e262a2a2d9_024961.jpeg",
+            "bbox": [
+                502.66,
+                -0.72,
+                373.17,
+                268.37
+            ],
+            "pos_queries": [
+                "A light_brown tray"
+            ],
+            "neg_queries": [
+                "A orange vase",
+                "A orange vase"
+            ]
+        },
+        {
+            "image_file_name": "a793c16e-918a-4900-af3e-12e262a2a2d9_024961.jpeg",
+            "bbox": [
+                854.63,
+                0.35000000000000003,
+                272.24,
+                163.58
+            ],
+            "pos_queries": [
+                "A white plate"
+            ],
+            "neg_queries": [
+                "A dark_pink bowl",
+                "A dark_pink bowl"
+            ]
+        },
+        {
+            "image_file_name": "a8175d36-481a-4c4d-9928-f1d31cb2254b_019070.jpeg",
+            "bbox": [
+                1709.63,
+                941.62,
+                127.1,
+                138.08
+            ],
+            "pos_queries": [
+                "A light_green bowl"
+            ],
+            "neg_queries": [
+                "A dark_purple dog",
+                "A dark_purple dog"
+            ]
+        },
+        {
+            "image_file_name": "a8197601-7474-4cb0-8d08-e8a8febcecfc_002843.jpeg",
+            "bbox": [
+                484.01,
+                590.03,
+                806.2,
+                489.78
+            ],
+            "pos_queries": [
+                "A black bicycle"
+            ],
+            "neg_queries": [
+                "A light_brown napkin",
+                "A light_brown napkin"
+            ]
+        },
+        {
+            "image_file_name": "a8197601-7474-4cb0-8d08-e8a8febcecfc_002843.jpeg",
+            "bbox": [
+                519.55,
+                864.32,
+                213.51,
+                216.12
+            ],
+            "pos_queries": [
+                "A black telephone"
+            ],
+            "neg_queries": [
+                "A brown calculator",
+                "A brown calculator"
+            ]
+        },
+        {
+            "image_file_name": "a8238ec0-a8d8-4b2e-8d92-d161bb6dcdca_023649.jpeg",
+            "bbox": [
+                909.22,
+                905.91,
+                165.01,
+                174.05
+            ],
+            "pos_queries": [
+                "A white tissue_paper"
+            ],
+            "neg_queries": [
+                "A dark_red hammer",
+                "A dark_red hammer"
+            ]
+        },
+        {
+            "image_file_name": "a828bd9f-1db6-4d90-a4e6-7d660835a260_007901.jpeg",
+            "bbox": [
+                0.19,
+                0.23,
+                1252.08,
+                1079.73
+            ],
+            "pos_queries": [
+                "A other(pattern_marking) table"
+            ],
+            "neg_queries": [
+                "A light_brown hat",
+                "A light_brown hat"
+            ]
+        },
+        {
+            "image_file_name": "a82af40e-2318-42ea-9167-5cc8f8111de1_027988.jpeg",
+            "bbox": [
+                735.77,
+                451.96,
+                187.86,
+                182.2
+            ],
+            "pos_queries": [
+                "A orange basket"
+            ],
+            "neg_queries": [
+                "A light_green broom",
+                "A light_green broom"
+            ]
+        },
+        {
+            "image_file_name": "a82af40e-2318-42ea-9167-5cc8f8111de1_027988.jpeg",
+            "bbox": [
+                829.1,
+                136.68,
+                115.43,
+                125.62
+            ],
+            "pos_queries": [
+                "A red ball"
+            ],
+            "neg_queries": [
+                "A light_grey pan_(for_cooking)",
+                "A light_grey pan_(for_cooking)"
+            ]
+        },
+        {
+            "image_file_name": "a869bda3-4649-4b34-af9b-a0346f8c71ea_028541.jpeg",
+            "bbox": [
+                643.42,
+                -0.01,
+                303.58,
+                188.81
+            ],
+            "pos_queries": [
+                "A black box"
+            ],
+            "neg_queries": [
+                "A light_orange earphone",
+                "A light_orange earphone"
+            ]
+        },
+        {
+            "image_file_name": "a869bda3-4649-4b34-af9b-a0346f8c71ea_028541.jpeg",
+            "bbox": [
+                1479.12,
+                -0.12,
+                440.87,
+                287.43
+            ],
+            "pos_queries": [
+                "A blue box"
+            ],
+            "neg_queries": [
+                "A dark_green clock",
+                "A dark_green clock"
+            ]
+        },
+        {
+            "image_file_name": "a869bda3-4649-4b34-af9b-a0346f8c71ea_028541.jpeg",
+            "bbox": [
+                -0.12,
+                -0.16,
+                1917.94,
+                1436.87
+            ],
+            "pos_queries": [
+                "A dark_brown bottle"
+            ],
+            "neg_queries": [
+                "A dark_grey fan",
+                "A dark_grey fan"
+            ]
+        }
+    ]
+}
