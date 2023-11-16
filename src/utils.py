@@ -16,6 +16,8 @@ class BoxUtil:
     ):
         imwidth = imwidth[:, None, None]
         imheight = imheight[:, None, None]
+#         print(f"imwidth.shape{imwidth.shape}")
+#         print(boxes_batch.shape)
         if mode == "down":
             boxes_batch[:, :, (0, 2)] *= (owl_image_dim[0]/imwidth)
             boxes_batch[:, :, (1, 3)] *= (owl_image_dim[1]/imheight)
@@ -58,7 +60,7 @@ class BoxUtil:
         return _box_convert(boxes_batch, in_format, out_format)
     
     @classmethod
-    def box_iou(boxes1, boxes2, eps = 1e-6):
+    def box_iou(cls, boxes1, boxes2, eps = 1e-6):
         """Computes IoU between two sets of boxes (Works on batched inputs).
             Adopted from: https://github.com/google-research/scenic/blob/main/scenic/model_lib/base_models/box_utils.py
 
@@ -94,7 +96,7 @@ class BoxUtil:
         return iou, union  # pytype: disable=bad-return-type 
     
     @classmethod
-    def generalized_box_iou(boxes1, boxes2, eps = 1e-6):
+    def generalized_box_iou(cls, boxes1, boxes2, eps = 1e-6):
         """Generalized IoU from https://giou.stanford.edu/.
 
         The boxes should be in [x, y, x', y'] format specifying top-left and bottom-right corners.
@@ -111,7 +113,7 @@ class BoxUtil:
         assert (boxes1[:, :, 2:] >= boxes1[:, :, :2]).all()
         assert (boxes2[:, :, 2:] >= boxes2[:, :, :2]).all()
 
-        iou, union = box_iou(boxes1, boxes2, eps=eps)
+        iou, union = cls.box_iou(boxes1, boxes2, eps=eps)
 
         # Generalized IoU has an extra term which takes into account the area of
         # the box containing both of these boxes. The following code is very similar
@@ -134,7 +136,7 @@ def paco_to_owl_box(boxes, metadata, owl_image_dim=(768, 768)):
     """
     boxes = BoxUtil.box_convert(boxes, "xywh", "xyxy")
     boxes = BoxUtil.scale_bounding_box(
-        boxes, metadata["width"], metadata["height"], owl_image_dim, mode="down"
+        boxes, metadata["width"].to(boxes.device), metadata["height"].to(boxes.device), owl_image_dim, mode="down"
     )
 
     return boxes

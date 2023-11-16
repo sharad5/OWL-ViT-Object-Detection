@@ -1,8 +1,8 @@
 import torch
 from torch import nn
 from torchvision.ops import box_convert
-from utils import BoxUtil, paco_to_owl_box
-from DETR.matcher import HungarianMatcher
+from src.utils import BoxUtil, paco_to_owl_box
+from src.DETR.matcher import HungarianMatcher
 
 class ContrastiveDetectionLoss(torch.nn.Module):
     def __init__(self, focal_alpha=0.5, focal_gamma=2, focal_loss_coef=1.0/3, bbox_loss_coef=1.0/3, giou_loss_coef=1.0/3):
@@ -44,9 +44,9 @@ class ContrastiveDetectionLoss(torch.nn.Module):
     
     def get_hungarian_matches(self, logits, pred_boxes, target_boxes, metadata):
         outputs_for_matcher = {"pred_logits": logits, "pred_boxes": pred_boxes}
-        targets_for_matcher = [{"labels": torch.tensor([0]).to(logits.device), \
+        targets_for_matcher = [{"labels": torch.arange(metadata["num_pos_queries"][idx]).to(logits.device), \
                                 "boxes":box.to(logits.device)} \
-                                 for box in paco_to_owl_box(target_boxes[:, None, :], metadata)]
+                                 for idx, box in enumerate(target_boxes)]
         matches = self.matcher(outputs_for_matcher, targets_for_matcher)
         matches = torch.tensor(matches)
         return matches
@@ -56,8 +56,8 @@ class ContrastiveDetectionLoss(torch.nn.Module):
         focal_loss = self.get_contrastive_focal_loss(logits, target_labels)
         
         pred_boxes = box_convert(pred_boxes, "cxcywh", "xyxy")
-        target_boxes = paco_to_owl_box(target_boxes, metadata)
-        target_boxes = target_boxes[:,None,:] # (B,4) -> (B,M=1,4)
+        target_boxes = paco_to_owl_box(target_boxes[:, None, :], metadata)
+#         target_boxes = target_boxes[:,None,:] # (B,4) -> (B,M=1,4)
          
         bbox_loss = self.get_bbox_loss(pred_boxes, target_boxes)
         giou_loss = self.get_giou_loss(pred_boxes, target_boxes)

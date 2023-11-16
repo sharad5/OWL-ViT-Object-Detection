@@ -9,6 +9,7 @@ import torch
 import yaml
 from PIL import Image
 from torch.utils.data import DataLoader, Dataset
+from torch import nn
 from transformers import OwlViTProcessor
 
 TRAIN_ANNOTATIONS_FILE = "data/ego4d_dummy_train.json"
@@ -34,27 +35,34 @@ class OwlDataset(Dataset):
 
     def load_target(self, idx: int):
         text = [self.data[idx]["pos_queries"] + self.data[idx]["neg_queries"]]
-        return text, self.data[idx]["bbox"]
+        num_pos_queries = len(self.data[idx]["pos_queries"])
+        return text, self.data[idx]["bbox"], num_pos_queries
 
     def __len__(self):
         return len(self.data)
 
     def __getitem__(self, idx):
         image, path = self.load_image(idx)
-        text, bbox = self.load_target(idx)
+        text, bbox, num_pos_queries = self.load_target(idx)
+        
+        # Target Labels
+        num_queries = len(text[0])
+        target_labels = nn.functional.one_hot(torch.zeros(1).to(torch.int64), num_classes=num_queries)
+        
+        # Metadata generation
         w, h = image.size
         metadata = {
             "width": w,
             "height": h,
             "impath": path,
+            "num_pos_queries": num_pos_queries
         }
         
         inputs = self.processor(text=text, images=image, return_tensors="pt")
         inputs['pixel_values'] = inputs['pixel_values'].squeeze(0)
-        return inputs, torch.tensor(bbox), metadata
+        return inputs, target_labels, torch.tensor(bbox), metadata
 
-def get_dataloaders(batch_size):
-    processor = OwlViTProcessor.from_pretrained("google/owlvit-base-patch32")
+def get_dataloaders(batch_size, processor):
     
     train_dataset = OwlDataset(processor, TRAIN_ANNOTATIONS_FILE)
     test_dataset = OwlDataset(processor, TRAIN_ANNOTATIONS_FILE)
