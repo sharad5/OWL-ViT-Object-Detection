@@ -5,9 +5,9 @@ data:
   num_test_images: 100
 
 training:
-  n_epochs: 2
-  learning_rate: 3e-6  # Keep very low
-  train_batch_size: 4
+  n_epochs: 12
+  learning_rate: 5e-5  # Keep very low
+  train_batch_size: 8
   save_eval_images: false
   use_class_weight: true 
   weight_decay: 0.1  # default
@@ -15,6 +15,8 @@ training:
   iou_threshold: 0.45  # For nms
   owl_vit_checkpoint: "google/owlvit-base-patch32"
   model_checkpoint_path: "./checkpoints"
+  num_pos_queries: 1
+  num_neg_queries: 3
   # NOTE: Use these values for benchmarking to stay consistent with YOLO, fasterRCNN, SSD, DETR,... etc
   #   confidence_threshold: 0.01  
   #   iou_threshold: 0.45

@@ -25,11 +25,12 @@ class ContrastiveDetectionLoss(torch.nn.Module):
         pos_class_loss = torch.einsum('bnc,bmc->bnm',
                                       pos_class_losses,
                                       target_labels.to(torch.float32)) # Sum of losses for pos queries
-        pos_class_loss = pos_class_loss/target_labels.sum(dim=-1).unsqueeze(-1) # Scale by num pos queries
+#         print(pos_class_loss.shape)
+        pos_class_loss = pos_class_loss/target_labels.sum(dim=-1).unsqueeze(-2) # Scale by num pos queries
         neg_class_loss = torch.einsum('bnc,bmc->bnm',
                                       neg_class_losses,
                                       (1-target_labels.to(torch.float32))) # Sum of losses for neg queries
-        neg_class_loss = neg_class_loss/(1-target_labels).sum(dim=-1).unsqueeze(-1) # Scale by num neg queries
+        neg_class_loss = neg_class_loss/(1-target_labels).sum(dim=-1).unsqueeze(-2) # Scale by num neg queries
         contrastive_focal_loss = pos_class_loss + neg_class_loss
         return contrastive_focal_loss
     
@@ -44,15 +45,23 @@ class ContrastiveDetectionLoss(torch.nn.Module):
     
     def get_hungarian_matches(self, logits, pred_boxes, target_boxes, metadata):
         outputs_for_matcher = {"pred_logits": logits, "pred_boxes": pred_boxes}
-        targets_for_matcher = [{"labels": torch.arange(metadata["num_pos_queries"][idx]).to(logits.device), \
+        # Assuming all Elements in the batch have the same number of positive queries (Hence taking value from 1st element)
+        # This is needed because the target_boxes tensor needs to have the same number of elements across the batch at dim 1
+        num_pos_queries = metadata["num_pos_queries"][0]
+        target_boxes = target_boxes.expand(target_boxes.shape[0], num_pos_queries, target_boxes.shape[2])
+#         print(target_boxes.shape)
+        targets_for_matcher = [{"labels": torch.arange(num_pos_queries).to(logits.device), \
                                 "boxes":box.to(logits.device)} \
-                                 for idx, box in enumerate(target_boxes)]
+                                 for box in target_boxes]
+#         print(pred_boxes.shape)
+#         print(target_boxes.shape)
         matches = self.matcher(outputs_for_matcher, targets_for_matcher)
-        matches = torch.tensor(matches)
+        matches = torch.stack([torch.stack(t, dim=1) for t in matches])
         return matches
 
     def forward(self, logits, pred_boxes, target_boxes, target_labels, metadata):
         batch_size = logits.shape[0]
+#         print(target_labels.shape)
         focal_loss = self.get_contrastive_focal_loss(logits, target_labels)
         
         pred_boxes = box_convert(pred_boxes, "cxcywh", "xyxy")
@@ -67,6 +76,10 @@ class ContrastiveDetectionLoss(torch.nn.Module):
                      + self.giou_loss_coef * giou_loss
         
         matches = self.get_hungarian_matches(logits, pred_boxes, target_boxes, metadata)
-        total_matched_loss = total_loss[torch.arange(batch_size), matches[:,0], matches[:,1]]
+#         print(total_loss.shape)
+        total_matched_loss = total_loss[torch.arange(batch_size).view(-1, 1).repeat(1, 1).view(-1), matches[...,0].flatten(), matches[...,1].flatten()]
         mean_loss = total_matched_loss.mean()
-        return mean_loss
+        mean_focal_loss = focal_loss.mean()
+        mean_bbox_loss = bbox_loss.mean()
+        mean_giou_loss = giou_loss.mean()
+        return mean_loss, mean_focal_loss, mean_bbox_loss, mean_giou_loss
