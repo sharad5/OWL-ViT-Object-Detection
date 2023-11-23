@@ -12,7 +12,7 @@ device = "cuda:0" if torch.cuda.is_available() else "cpu"
 dataset_file_name = "/scratch/hk3820/capstone/data/paco_annotations/paco_ego4d_v1_test_dev.json"
 image_root_dir = "/scratch/hk3820/capstone/data/paco_frames/v1/paco_frames"
 model_checkpoint = "google/owlvit-base-patch32"
-pt_model_path = "checkpoints/20231120_2222_model.pt"
+pt_model_path = "checkpoints/20231122_0534_model.pt"
 img_batch_size = 4
 
 
@@ -113,5 +113,5 @@ if __name__ == "__main__":
     print("Exporting Results")
     model_name = model_checkpoint.split("/")[-1]
     #model_name += "_thr05"
-#     model_name += "_processed_thr05"
+    model_name += "_epoch1"
     export_results_pkl(predictions, model_name)

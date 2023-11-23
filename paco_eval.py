@@ -2,8 +2,8 @@ import json
 import pickle
 from paco.evaluation import paco_query_evaluation
 
-PACO_TEST_PATH = "paco_data/annotations/paco_ego4d_v1_test_dev.json"
-MODEL_PREDS_PATH = "paco_data/inference/owlvit-base-patch32.pickle"
+PACO_TEST_PATH = "/scratch/hk3820/capstone/data/paco_annotations/paco_ego4d_v1_test_dev.json"
+MODEL_PREDS_PATH = "data/inference/owlvit-base-patch32.pickle"
 
 def calculate_ar():
     with open(PACO_TEST_PATH) as f:
