@@ -78,7 +78,13 @@ if __name__ == "__main__":
     
     model = build_model(training_cfg, device, num_gpus)
     
-    criterion = ContrastiveDetectionLoss()
+    criterion = ContrastiveDetectionLoss(focal_loss_coef = training_cfg["focal_loss_coef"],
+                                         bbox_loss_coef = training_cfg["bbox_loss_coef"],
+                                         giou_loss_coef = training_cfg["giou_loss_coef"],
+                                         non_overlap_loss_coef = training_cfg["non_overlap_loss_coef"],
+                                         non_overlap_giou_thresh = training_cfg["non_overlap_giou_thresh"]
+                                        )
+    
     
     optimizer = torch.optim.AdamW(
                     model.parameters(),
@@ -93,14 +99,14 @@ if __name__ == "__main__":
     num_training_steps = num_epochs * num_batches
     progress_bar = tqdm(range(num_training_steps))
     
-    wandb_run = wandb.init(project="owl-vit", config=training_cfg)#, mode="disabled")
+    wandb_run = wandb.init(project="owl-vit", entity="a-is-all-we-need", config=training_cfg)#, mode="disabled")
     wandb_identifier = wandb_run.name
-    wandb.watch(model, log_freq=50)
+    #wandb.watch(model, log_freq=50)
     
     model.train()
     step = 0
     for epoch in range(training_cfg["n_epochs"]):
-        total_loss, total_focal_loss, total_bbox_loss, total_giou_loss = 0,0,0,0
+        total_loss, total_focal_loss, total_bbox_loss, total_giou_loss, total_non_overlap_loss = 0,0,0,0,0
         for i, (inputs, target_labels, boxes, metadata) in enumerate(train_dataloader):
             optimizer.zero_grad()
 
@@ -120,7 +126,7 @@ if __name__ == "__main__":
             target_labels = target_labels.to(device)
             boxes = boxes.to(device)
             try:
-                loss, focal_loss, bbox_loss, giou_loss = criterion(logits, pred_boxes, boxes, target_labels, metadata, step)
+                loss, focal_loss, bbox_loss, giou_loss, non_overlap_loss = criterion(logits, pred_boxes, boxes, target_labels, metadata, step)
                 loss.backward()
                 torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
                 optimizer.step()
@@ -128,10 +134,11 @@ if __name__ == "__main__":
                 total_focal_loss += focal_loss.item()
                 total_bbox_loss += bbox_loss.item()
                 total_giou_loss += giou_loss.item()
+                total_non_overlap_loss += non_overlap_loss.item()
 
                 progress_bar.update(1)
                 progress_bar.set_description(f"Loss: {loss.item():.3f}")
-                wandb.log({"train_loss": loss, "focal_loss": focal_loss, "bbox_loss": bbox_loss, "giou_loss": giou_loss})
+                wandb.log({"train_loss": loss, "focal_loss": focal_loss, "bbox_loss": bbox_loss, "giou_loss": giou_loss, "non_overlap_loss":non_overlap_loss})
                 step+=1
             except Exception as e:
                 print(f"Step: {step}", type(e))
@@ -145,7 +152,8 @@ if __name__ == "__main__":
         mean_focal_loss = total_focal_loss/num_batches
         mean_bbox_loss = bbox_loss/num_batches
         mean_giou_loss = giou_loss/num_batches
-        print(f"Loss: {mean_total_loss:.3f}, Focal Loss: {mean_focal_loss:.3f}, BBox Loss: {mean_bbox_loss:.3f}, GIOU Loss: {mean_giou_loss:.3f}")
+        mean_non_overlap_loss = non_overlap_loss/num_batches
+        print(f"Loss: {mean_total_loss:.3f}, Focal Loss: {mean_focal_loss:.3f}, BBox Loss: {mean_bbox_loss:.3f}, GIOU Loss: {mean_giou_loss:.3f}, Non-Overlap Loss: {mean_non_overlap_loss:.3f}")
         total_val_loss = 0
         model.eval()
         with torch.no_grad():
@@ -166,7 +174,7 @@ if __name__ == "__main__":
                 target_labels = target_labels.to(device)
                 boxes = boxes.to(device)
                 try:
-                    val_loss, _, _, _ = criterion(logits, pred_boxes, boxes, target_labels, metadata, step)
+                    val_loss, _, _, _, _ = criterion(logits, pred_boxes, boxes, target_labels, metadata, step)
 #                 loss.backward()
 #                 optimizer.step()
                     total_val_loss += val_loss.item()
@@ -176,6 +184,6 @@ if __name__ == "__main__":
                 torch.cuda.empty_cache()
         
         
-        wandb.log({"epoch_train_loss": mean_total_loss, "epoch_train_focal_loss": mean_focal_loss, "epoch_train_bbox_loss": mean_bbox_loss, "epoch_train_giou_loss": mean_giou_loss, "epoch_val_loss": total_val_loss/len(test_dataloader)})
+        wandb.log({"epoch_train_loss": mean_total_loss, "epoch_train_focal_loss": mean_focal_loss, "epoch_train_bbox_loss": mean_bbox_loss, "epoch_train_giou_loss": mean_giou_loss, "epoch_train_non_overlap_loss": mean_non_overlap_loss, "epoch_val_loss": total_val_loss/len(test_dataloader)})
             
         save_model_checkpoint(model, optimizer, epoch, mean_total_loss, training_cfg, wandb_identifier)
