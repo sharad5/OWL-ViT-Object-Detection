@@ -96,7 +96,7 @@ class BoxUtil:
         return iou, union  # pytype: disable=bad-return-type 
     
     @classmethod
-    def generalized_box_iou(cls, boxes1, boxes2, eps = 1e-6):
+    def generalized_box_iou(cls, boxes1, boxes2, step, eps = 1e-6):
         """Generalized IoU from https://giou.stanford.edu/.
 
         The boxes should be in [x, y, x', y'] format specifying top-left and bottom-right corners.
@@ -110,6 +110,8 @@ class BoxUtil:
             A [bs, n, m] pairwise matrix, of generalized ious.
         """
         # Degenerate boxes gives inf / nan results, so do an early check.
+        if not (boxes1[:, :, 2:] >= boxes1[:, :, :2]).all():
+            torch.save(boxes1, f'logs/run3/boxes1_{step}.pt')
         assert (boxes1[:, :, 2:] >= boxes1[:, :, :2]).all()
         assert (boxes2[:, :, 2:] >= boxes2[:, :, :2]).all()
 
@@ -135,8 +137,8 @@ def paco_to_owl_box(boxes, metadata, owl_image_dim=(768, 768)):
     absolute xywh -> relative xyxy
     """
     boxes = BoxUtil.box_convert(boxes, "xywh", "xyxy")
-    boxes = BoxUtil.scale_bounding_box(
-        boxes, metadata["width"].to(boxes.device), metadata["height"].to(boxes.device), owl_image_dim, mode="down"
-    )
+#     boxes = BoxUtil.scale_bounding_box(
+#         boxes, metadata["width"].to(boxes.device), metadata["height"].to(boxes.device), owl_image_dim, mode="down"
+#     )
 
     return boxes

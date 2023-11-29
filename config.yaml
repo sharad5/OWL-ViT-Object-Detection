@@ -5,18 +5,22 @@ data:
   num_test_images: 100
 
 training:
-  n_epochs: 6
-  learning_rate: 5e-6  # Keep very low
+  n_epochs: 12
+  gpu: "0,1,2,3"
+  learning_rate: 3e-7  # Keep very low
   train_batch_size: 8
   save_eval_images: false
   use_class_weight: true 
   weight_decay: 0.1  # default
   confidence_threshold: 0.01  # This can be quite low and still achieve good results
   iou_threshold: 0.45  # For nms
-  owl_vit_checkpoint: "google/owlvit-base-patch32"
+  owl_vit_checkpoint: "google/owlvit-base-patch32" #"google/owlvit-large-patch14"
   model_checkpoint_path: "./checkpoints"
+  use_model_checkpoint: true
+  model_checkpoint_file: "different-dawn-35_epoch-5.pt"
   num_pos_queries: 1
   num_neg_queries: 3
+  train_data_file: "data/ego4d_queries_train.json" #"/scratch/sn3250/capstone/OWL-ViT/data/open-vocab-data/ego4d_queries_train_v2_5_5_5_5.json"
   # NOTE: Use these values for benchmarking to stay consistent with YOLO, fasterRCNN, SSD, DETR,... etc
   #   confidence_threshold: 0.01  
   #   iou_threshold: 0.45

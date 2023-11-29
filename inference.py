@@ -6,13 +6,14 @@ from tqdm import tqdm
 from PIL import Image
 import torch
 from transformers import OwlViTProcessor, OwlViTForObjectDetection
+from collections import OrderedDict
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 #dataset_file_name = "data/paco_annotations/paco_ego4d_v1_test_dev.json"
 dataset_file_name = "/scratch/hk3820/capstone/data/paco_annotations/paco_ego4d_v1_test_dev.json"
 image_root_dir = "/scratch/hk3820/capstone/data/paco_frames/v1/paco_frames"
 model_checkpoint = "google/owlvit-base-patch32"
-pt_model_path = "checkpoints/20231120_2222_model.pt"
+pt_model_path = "checkpoints/vague-vortex-47_epoch-11.pt"
 img_batch_size = 4
 
 
@@ -29,7 +30,10 @@ def load_image_query_ids():
 def load_model(model_checkpoint):
     processor = OwlViTProcessor.from_pretrained(model_checkpoint) # Image Processor + Text Tokenizer
     model = OwlViTForObjectDetection.from_pretrained(model_checkpoint)
-    model.load_state_dict(torch.load(pt_model_path)["model_state_dict"])
+    state_dict = torch.load(pt_model_path)["model_state_dict"]
+    if "module" in list(state_dict.keys())[0]:
+        state_dict = OrderedDict({".".join(k.split(".")[1:]): v for k,v in state_dict.items()})
+    model.load_state_dict(state_dict)
     model = model.to(device)
     return processor, model
 
@@ -113,5 +117,5 @@ if __name__ == "__main__":
     print("Exporting Results")
     model_name = model_checkpoint.split("/")[-1]
     #model_name += "_thr05"
-#     model_name += "_processed_thr05"
+    model_name += "_vague-vortex-47-epoch-11"
     export_results_pkl(predictions, model_name)
