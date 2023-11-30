@@ -150,9 +150,9 @@ if __name__ == "__main__":
         scheduler.step()
         mean_total_loss = total_loss/num_batches
         mean_focal_loss = total_focal_loss/num_batches
-        mean_bbox_loss = bbox_loss/num_batches
-        mean_giou_loss = giou_loss/num_batches
-        mean_non_overlap_loss = non_overlap_loss/num_batches
+        mean_bbox_loss = total_bbox_loss/num_batches
+        mean_giou_loss = total_giou_loss/num_batches
+        mean_non_overlap_loss = total_non_overlap_loss/num_batches
         print(f"Loss: {mean_total_loss:.3f}, Focal Loss: {mean_focal_loss:.3f}, BBox Loss: {mean_bbox_loss:.3f}, GIOU Loss: {mean_giou_loss:.3f}, Non-Overlap Loss: {mean_non_overlap_loss:.3f}")
         total_val_loss = 0
         model.eval()
