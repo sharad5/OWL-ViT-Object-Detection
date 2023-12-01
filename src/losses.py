@@ -91,7 +91,7 @@ class ContrastiveDetectionLoss(torch.nn.Module):
         total_matched_loss = total_loss[torch.arange(batch_size), matches[:,0], matches[:,1]]
         
         matched_focal_loss_mean = focal_loss[torch.arange(batch_size), matches[:,0], matches[:,1]].mean()
-        mean_loss = total_matched_loss.mean() #+ self.non_overlap_loss_coef * mean_non_overlap_loss
+        mean_loss = total_matched_loss.mean() + self.non_overlap_loss_coef * mean_non_overlap_loss
 #         mean_focal_loss = focal_loss.mean()
         mean_bbox_loss = bbox_loss[torch.arange(batch_size), matches[:,0], matches[:,1]].mean()
         mean_giou_loss = giou_loss[torch.arange(batch_size), matches[:,0], matches[:,1]].mean()
